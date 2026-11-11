@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-11",
+  "jurisdictions": [
+    "US federal",
+    "Delaware",
+    "California",
+    "EU"
+  ],
+  "textbooks": [
+    {
+      "id": "corporate",
+      "index": "textbooks/01-startup-corporate-securities/README.md",
+      "chapter_count": 5
+    },
+    {
+      "id": "ai-privacy",
+      "index": "textbooks/02-ai-regulation-privacy/README.md",
+      "chapter_count": 5
+    },
+    {
+      "id": "ip",
+      "index": "textbooks/03-intellectual-property-open-source/README.md",
+      "chapter_count": 5
+    },
+    {
+      "id": "contracts",
+      "index": "textbooks/04-contracts-saas-liability/README.md",
+      "chapter_count": 5
+    }
+  ],
+  "casebook": "casebook/README.md",
+  "quality_documents": [
+    "quality/citation-standards.md",
+    "quality/case-briefing.md",
+    "quality/audit-matrix.md",
+    "quality/final-examination.md"
+  ],
+  "authority_status": {
+    "verified_official": [
+      "Coinbase v Suski 2024",
+      "Google v Oracle 2021",
+      "Van Buren 2021",
+      "Warhol v Goldsmith 2023",
+      "Bostock v Clayton County 2020"
+    ],
+    "pending_authentication": [
+      "Specht v Netscape 2002",
+      "Smith v Van Gorkom 1985"
+    ]
+  },
+  "limitations": [
+    "No comprehensive case citator check",
+    "No exhaustive subsection-by-subsection law verification",
+    "Legal compliance depends on actual facts and jurisdictions",
+    "Linked source redistribution licenses are not presumed"
+  ]
+}
