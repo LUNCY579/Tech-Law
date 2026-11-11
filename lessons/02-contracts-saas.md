@@ -34,8 +34,32 @@ Your model gateway markets “zero retention,” but its provider logs prompts f
 **Answer:** No. Analyze notice, assent, applicable contract law, consumer statutes and unconscionability. Preserve actual screen evidence, not just text in the repository.
 
 ## Primary-source reading
-- [Federal Arbitration Act, 9 U.S.C. §2](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title9-section2&num=0&edition=prelim) [law].
-- [FTC Act, 15 U.S.C. §45](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&num=0&edition=prelim) [law].
+- [Federal Arbitration Act, 9 U.S.C. §2](https://www.govinfo.gov/link/uscode/9/2) [law].
+- [FTC Act, 15 U.S.C. §45](https://www.govinfo.gov/link/uscode/15/45) [law].
 - [Federal judiciary opinions via GovInfo](https://www.govinfo.gov/app/collection/uscourts) [official judicial documents].
 - [FTC business guidance](https://www.ftc.gov/business-guidance) [guidance].
 **Practical assignment:** Inspect a SaaS signup screen, terms versioning, checkout consent and subscription cancellation. Write a 1-page issue-spotting memo.
+
+## Advanced seminar — assent and contract architecture
+
+### A. Analyze online assent step by step
+1. **Presentation:** Where are terms relative to the primary button? Was the link legible and accessible?
+2. **Acceptance:** Does the interface make the action legally meaningful? Is there a separate checkbox or clear adjacent notice?
+3. **Evidence:** Save version number, timestamp, locale, terms hash, and the user action; preserve screenshots of actual production flows.
+4. **Enforceability:** Examine governing state law, minors, unconscionability, consumer rules, and statutory limits on clauses.
+5. **Change management:** Identify notice and assent conditions when changing material terms. A silent unilateral change may be disputed.
+
+### B. Case study — *Specht v. Netscape*
+**Citation:** 306 F.3d 17 (2d Cir. 2002). **Facts:** A user could download software without first encountering the license terms, which were located below the button. **Issue:** Had users manifested assent to arbitration? **Holding:** Under the relevant contract principles, no enforceable assent to the arbitration provision was shown on that UI. **Boundary:** Not every browsewrap arrangement is categorically invalid, and interface-specific precedent must be checked for jurisdiction and later developments. For self-study, retrieve a verified copy from the court's opinion archive or an official court repository before quoting a pinpoint passage.
+
+### C. Drafting workshop: SaaS terms and data processing
+Map each promise to operational evidence:
+| Promise | Questions to test | Evidence |
+|---|---|---|
+| “You own your content” | Does the company obtain necessary processing rights? | License scope in terms |
+| “No AI training on customer data” | What do internal and external providers retain/use? | Provider contracts, telemetry configs |
+| “We delete on termination” | Is deletion immediate, scheduled or exception-limited? | Worker traces and backup schedule |
+| “99.9% uptime” | What is excluded and what is the remedy? | SLO metrics, SLA calculation |
+| “Your data stays in the U.S.” | Are logs/support/subprocessors also restricted? | Region architecture and DPAs |
+
+**Problem:** A business customer posts confidential documents and the platform sends them to a model provider that may use them for training. Name the exact contract provisions, privacy disclosures and vendor artifacts to inspect. **Model answer:** customer authorization and processing license, confidentiality, DPA/subprocessor terms, actual provider settings, retention, geographical transfers, and any false representations. Contracts cannot override every statutory restriction.
