@@ -4,6 +4,12 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
+## Milestone 6: Cybersecurity and Employment AI textbooks
+
+- **[Textbook V — Cybersecurity, Computer Misuse & Data Breach Law](textbooks/05-cybersecurity-computer-misuse/README.md)** — CFAA, *Van Buren*, FTC Safeguards, SEC public-company cyber disclosures, incidents, vendor controls and exams.
+- **[Textbook VI — Employment Law & AI Assessment](textbooks/06-employment-ai-assessments/README.md)** — Title VII, ADA, scientific assessment validity, impact testing, credential provenance and graded exams.
+- **[Milestone 6 official source audit](textbooks/SOURCE_NOTES_2026-11-11_MILESTONE6.md)** — regulates the distinction between law, official guidance and conditional applicability.
+
 ## Milestone 5: scholarship QA and cross-book assessment
 
 - **[Citation and legal-claim standards](quality/citation-standards.md)** — authority hierarchy, exact sections and case pinpoints, version control, reuse constraints.
