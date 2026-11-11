@@ -4,7 +4,15 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
-## New: Intellectual Property and Contracts textbooks (Milestone 4)
+## Milestone 5: scholarship QA and cross-book assessment
+
+- **[Citation and legal-claim standards](quality/citation-standards.md)** — authority hierarchy, exact sections and case pinpoints, version control, reuse constraints.
+- **[Case briefing manual](quality/case-briefing.md)** — procedural posture, holdings, concurrence and dissent, distinctions.
+- **[Cross-book 100-point examination with answer key](quality/final-examination.md)** — integrated AI startup fact pattern.
+- **[Targeted audit and open issues](quality/audit-matrix.md)** — explicit checks and limitations, not an exhaustive citator audit.
+- **[Machine-readable manifest](quality/curriculum-manifest.json)** — textbook inventory and source-status distinctions.
+
+## Intellectual Property and Contracts textbooks (Milestone 4)
 
 - **[Textbook III — Intellectual Property, Open Source & AI Assets](textbooks/03-intellectual-property-open-source/README.md)**: copyright/fair use, software licenses, model/data rights, AI outputs, trademarks, patents, trade secrets, and a commercial-game/AI audit exam.
 - **[Textbook IV — SaaS Contracts, Commerce & Technology Liability](textbooks/04-contracts-saas-liability/README.md)**: digital assent, contract hierarchy, AI service clauses, consumer subscription law, liability, cybersecurity, and a SaaS launch exam.
