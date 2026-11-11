@@ -4,6 +4,12 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
+## Milestone 7: International Technology Law and Cross-Border Commercialization
+
+- **[Textbook VII — International Technology Law](textbooks/07-international-technology-law/README.md)** — cross-border jurisdiction, GDPR Chapter V data transfers, EU–U.S. DPF and SCCs, AI Act and DSA market entry, BIS export controls, OFAC sanctions, EU VAT and international SaaS contracting.
+- **[Source ledger](textbooks/07-international-technology-law/SOURCE_LEDGER.md)** — official publisher verification, unresolved legal questions and copyright-safe sourcing.
+- **[100-point cross-border commercialization capstone](textbooks/07-international-technology-law/06-capstone-exam.md)** — U.S. AI credential startup selling to EU employers and consumers.
+
 ## Milestone 6: Cybersecurity and Employment AI textbooks
 
 - **[Textbook V — Cybersecurity, Computer Misuse & Data Breach Law](textbooks/05-cybersecurity-computer-misuse/README.md)** — CFAA, *Van Buren*, FTC Safeguards, SEC public-company cyber disclosures, incidents, vendor controls and exams.
