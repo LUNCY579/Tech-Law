@@ -27,6 +27,11 @@
       "id": "contracts",
       "index": "textbooks/04-contracts-saas-liability/README.md",
       "chapter_count": 5
+    },
+    {
+      "id": "international-technology-law",
+      "index": "textbooks/07-international-technology-law/README.md",
+      "chapter_count": 6
     }
   ],
   "casebook": "casebook/README.md",
@@ -34,7 +39,8 @@
     "quality/citation-standards.md",
     "quality/case-briefing.md",
     "quality/audit-matrix.md",
-    "quality/final-examination.md"
+    "quality/final-examination.md",
+    "textbooks/07-international-technology-law/SOURCE_LEDGER.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -53,6 +59,8 @@
     "No comprehensive case citator check",
     "No exhaustive subsection-by-subsection law verification",
     "Legal compliance depends on actual facts and jurisdictions",
-    "Linked source redistribution licenses are not presumed"
+    "Linked source redistribution licenses are not presumed",
+    "No specific EAR ECCN or OFAC authorization determination",
+    "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review"
   ]
 }
