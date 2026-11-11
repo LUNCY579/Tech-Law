@@ -4,6 +4,14 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
+## Milestone 8: repository-wide legal QA (targeted, not certification)
+
+- **[Milestone 8 findings and open gates](quality/MILESTONE8_AUDIT_2026-11-11.md)** — structural review of PR patch content, targeted official-source currency checks, corrected EU–US DPF litigation history and transparent limitations.
+- **[Repeatable structural link/manifest audit](scripts/audit_curriculum.py)** — run locally with `python3 scripts/audit_curriculum.py`. This is a no-network structure check; it cannot verify legal correctness or outside link availability.
+- **[Updated EU–U.S. DPF litigation section](textbooks/07-international-technology-law/02-data-transfers.md)** — 2025 *Latombe* judgment and pending appeal noted without assuming a final appellate outcome.
+
+**Release gate:** PR remains unmerged. The review has not exhaustively verified every external URL, every amendment, every judicial subsequent history, or legal reuse rights for all linked materials.
+
 ## Milestone 7: International Technology Law and Cross-Border Commercialization
 
 - **[Textbook VII — International Technology Law](textbooks/07-international-technology-law/README.md)** — cross-border jurisdiction, GDPR Chapter V data transfers, EU–U.S. DPF and SCCs, AI Act and DSA market entry, BIS export controls, OFAC sanctions, EU VAT and international SaaS contracting.
