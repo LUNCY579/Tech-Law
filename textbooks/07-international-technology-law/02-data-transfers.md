@@ -36,3 +36,14 @@ A U.S. startup says “all candidate data stays in the EU” but uses a U.S.-hos
 
 ### Independent assignment
 Write a transfer impact assessment outline with facts, source law, transfer frequency, recipients, categories of data, destination-country factors, security measures, contractual promises and review date. **This is a study artifact, not a ready-made compliance certification.**
+
+
+## 7. Subsequent history — *Latombe v Commission* (2025), under appeal
+
+**Authentic primary references:** [General Court judgment, Case T-553/23, ECLI:EU:T:2025:831](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62023TJ0553) and [official notice of appeal, Case C-703/25 P](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202506610).
+
+**Procedure:** On **3 September 2025**, the EU General Court dismissed Philippe Latombe's action seeking annulment of Commission Implementing Decision (EU) 2023/1795 (the EU–U.S. DPF adequacy decision). An **appeal was filed 31 October 2025**, registered as C-703/25 P. The fact of appeal does not itself annul the Commission decision or reverse the General Court judgment. Nor should the dismissed action be described as a final unappealable judicial endorsement. Check the CJEU docket and live decision status before a real transfer-law recommendation.
+
+**What founders may conclude:** The adequacy mechanism remains a potentially relevant pathway for covered transfers to actively participating U.S. organizations, subject to applicable law and current decisions. That is not a blanket approval of an entire AI startup's GDPR compliance. Keep an explicit legal-change trigger and an alternative transfer-mechanism review where appropriate.
+
+**Exam addendum:** A SaaS founder reads the 2025 dismissal and writes “The DPF can never be struck down.” Explain why this overstates the ruling, identify the appellate posture, and distinguish the validity of a transfer mechanism from compliance with GDPR Articles 5, 6, 28, 32 and other duties.
