@@ -11,7 +11,7 @@ An AI model developer, general-purpose model provider, downstream system provide
 Employment recruitment/selection AI is within Annex III's employment category when conditions are met; do not assume every AI function is automatically high-risk without examining statutory criteria and exemptions.
 
 ## 3. U.S. employment discrimination rules apply to AI-supported decisions
-[Law] Title VII, 42 U.S.C. §2000e-2, prohibits certain employment discrimination; the use of a model does not remove an employer's legal duties. [Official statute](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section2000e-2&num=0&edition=prelim).
+[Law] Title VII, 42 U.S.C. §2000e-2, prohibits certain employment discrimination; the use of a model does not remove an employer's legal duties. [Official statute](https://www.govinfo.gov/link/uscode/42/2000e-2).
 
 Consider disparate treatment and disparate impact separately. Model outputs should be tested with job-relevant validation, representative evaluation populations, accommodation/accessibility analysis, and documented human review. An employer cannot assume the vendor will bear every legal risk.
 
@@ -36,6 +36,28 @@ A product screens candidates for EU employers, uses a general-purpose model via 
 
 ## Sources
 - [EU AI Act, official EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202401689) [law].
-- [Title VII, 42 U.S.C. §2000e-2](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section2000e-2&num=0&edition=prelim) [law].
+- [Title VII, 42 U.S.C. §2000e-2](https://www.govinfo.gov/link/uscode/42/2000e-2) [law].
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) [voluntary framework, not law].
-- [FTC Act §5](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&num=0&edition=prelim) [law].
+- [FTC Act §5](https://www.govinfo.gov/link/uscode/15/45) [law].
+
+## Advanced seminar — AI Act classification and employment validation
+
+### A. Time-aware regulatory analysis
+The official EUR-Lex page for Regulation (EU) 2024/1689 points to a consolidated version dated **27 July 2026**. Before relying on any AI Act deadline, compare the operative consolidated text, amendments and transitional articles. A course based only on the original 2024 document may omit later changes.
+
+### B. Classification workflow
+1. Define feature and actual intended purpose.
+2. Map provider, deployer, importer, distributor and general-purpose-model roles where applicable.
+3. Assess territorial scope, prohibited practices and any Annex III categories.
+4. For potential high-risk functions, check Article 6 and relevant exemptions/conditions rather than stopping at a category label.
+5. Separate provider duties from deployer duties, including oversight, information and monitoring.
+6. Examine phased dates, transitional provisions and amendments before specifying obligations.
+
+### C. Employment law issue tree
+**Title VII:** differentiate intentional differential treatment from facially neutral selection methods with disparate impact. For impact analysis, consider protected groups, selection rates, sample size, job relatedness/business necessity, alternative methods and local legal requirements. The mere presence of a metric is not a judicial validation of the assessment.
+
+### D. Worked AI assessment example
+A recruiting platform calls a candidate “verified” after a single uncalibrated coding test. **Potential problems:** ambiguous verification claim, unsupported psychometric validity, disparate impact, candidate data handling and downstream employer reliance. **Engineering controls:** explicitly label what is verified; separate identity/authenticity from job-performance prediction; record assessment form/model/version; require appropriately independent scientific review; implement correction/appeal workflows; prohibit opaque high-stakes automatic disqualification without legal and validation review.
+
+### E. Exercise
+Write a 1,000-word EU/U.S. comparison for a fictional AI résumé screener. Cite exact AI Act articles and Title VII section, and distinguish legal applicability, recommended risk controls and unknown facts. Do not assume NIST AI RMF is binding law.
