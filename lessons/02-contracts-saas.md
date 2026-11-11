@@ -6,7 +6,7 @@
 Begin with a valid offer, an objective manifestation of acceptance, consideration, and capacity/legality. A valid contract also depends on the jurisdiction and the applicable transaction. For a B2B API, a negotiated order form and master services agreement can govern pricing, service scope and risk. For a consumer application, consent design and notice are central.
 
 ## 2. Online terms: a visible link alone may be insufficient
-Analyze whether the user had reasonable notice of the terms and manifested assent. Compare *Specht v. Netscape Communications Corp.*, 306 F.3d 17 (2d Cir. 2002): the court held the users were not bound to arbitration terms presented below the download button where adequate notice/assent was missing. [Official Second Circuit opinion on GovInfo](https://www.govinfo.gov/content/pkg/USCOURTS-ca2-01-07876/pdf/USCOURTS-ca2-01-07876-0.pdf) (confirm document URL before relying in a filing). The precise UI and governing law matter.
+Analyze whether the user had reasonable notice of the terms and manifested assent. Compare *Specht v. Netscape Communications Corp.*, 306 F.3d 17 (2d Cir. 2002): the court held the users were not bound to arbitration terms presented below the download button where adequate notice/assent was missing. Consult the court opinion via an authenticated court archive or [GovInfo federal court opinions collection](https://www.govinfo.gov/app/collection/uscourts); a specific official opinion-file URL has not been verified here. The precise UI and governing law matter.
 
 **Engineering translation:** show conspicuous terms near the affirmative action; version terms; record acceptance timestamp, user identity, version/hash, locale, and presentation state; maintain accessible copies.
 
