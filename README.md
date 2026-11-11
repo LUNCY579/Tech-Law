@@ -4,6 +4,10 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
+## New: primary-source casebook (Milestone 2)
+
+Read the [casebook index](casebook/README.md) for detailed judicial case briefs, the [statutory interpretation lab](casebook/statutory-reading-lab.md), and the [verification register](casebook/SOURCE_REGISTER.md). The casebook is maintained on the open curriculum PR branch until merged. Historic opinions without authenticated official copies are specifically marked **pending**, not represented as verified.
+
 ## Learning sequence
 
 | Week | Module | Deliverable |
