@@ -4,7 +4,13 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
-## New: dedicated textbooks (Milestone 3)
+## New: Intellectual Property and Contracts textbooks (Milestone 4)
+
+- **[Textbook III — Intellectual Property, Open Source & AI Assets](textbooks/03-intellectual-property-open-source/README.md)**: copyright/fair use, software licenses, model/data rights, AI outputs, trademarks, patents, trade secrets, and a commercial-game/AI audit exam.
+- **[Textbook IV — SaaS Contracts, Commerce & Technology Liability](textbooks/04-contracts-saas-liability/README.md)**: digital assent, contract hierarchy, AI service clauses, consumer subscription law, liability, cybersecurity, and a SaaS launch exam.
+- **[Milestone 4 official-source notes](textbooks/SOURCE_NOTES_2026-11-11_MILESTONE4.md)**: status of case holdings, license texts, and the 2025 vacatur/2026 rollback of the FTC click-to-cancel amendment.
+
+## Earlier: dedicated textbooks (Milestone 3)
 
 - **[Textbook I — Startup Corporate Law & Securities](textbooks/01-startup-corporate-securities/README.md)**: formation, governance, equity, vesting and IP assignment, SAFE math, exempt fundraising, graded examinations.
 - **[Textbook II — AI Regulation & Privacy](textbooks/02-ai-regulation-privacy/README.md)**: the 2026 EU AI Act text, GDPR, California 2026/2027 regulations, FTC and hiring discrimination, compliance architecture and applied examination.
