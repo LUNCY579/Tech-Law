@@ -4,6 +4,13 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
 
+## New: dedicated textbooks (Milestone 3)
+
+- **[Textbook I — Startup Corporate Law & Securities](textbooks/01-startup-corporate-securities/README.md)**: formation, governance, equity, vesting and IP assignment, SAFE math, exempt fundraising, graded examinations.
+- **[Textbook II — AI Regulation & Privacy](textbooks/02-ai-regulation-privacy/README.md)**: the 2026 EU AI Act text, GDPR, California 2026/2027 regulations, FTC and hiring discrimination, compliance architecture and applied examination.
+
+Both textbooks provide original explanations with primary official sources and founder-focused hypotheticals. **They are educational primers, not exhaustive treatises or legal signoff.** All source versions and effective dates need transaction-specific rechecking.
+
 ## New: primary-source casebook (Milestone 2)
 
 Read the [casebook index](casebook/README.md) for detailed judicial case briefs, the [statutory interpretation lab](casebook/statutory-reading-lab.md), and the [verification register](casebook/SOURCE_REGISTER.md). The casebook is maintained on the open curriculum PR branch until merged. Historic opinions without authenticated official copies are specifically marked **pending**, not represented as verified.
