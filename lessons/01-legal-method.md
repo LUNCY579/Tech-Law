@@ -17,7 +17,7 @@ Example: A Missouri-incorporated SaaS company collects California residents' dat
 - **Blogs, videos, templates:** Starting leads, never final authority.
 
 ### Step 3 — Parse a statute using elements
-[Law] 15 U.S.C. §45(a)(1) prohibits unfair or deceptive acts or practices in or affecting commerce. §45(n) states conditions for an unfairness determination. Do not treat “unfair” as interchangeable with “deceptive”: they are separate analyses. [Official U.S. Code](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&num=0&edition=prelim).
+[Law] 15 U.S.C. §45(a)(1) prohibits unfair or deceptive acts or practices in or affecting commerce. §45(n) states conditions for an unfairness determination. Do not treat “unfair” as interchangeable with “deceptive”: they are separate analyses. [Official U.S. Code](https://www.govinfo.gov/link/uscode/15/45).
 
 Apply to a fictional AI-app claim “98% accurate”: who made the representation? What precisely does “accuracy” measure? Was it material? What test population and benchmark support it? A marketing statement is not made safe by being inside a terms-of-service document.
 
@@ -35,12 +35,31 @@ A founder adds an “unsubscribe” footer to every transactional password-reset
 
 <details><summary>Answer and reasoning</summary>
 
-Check the CAN-SPAM Act, 15 U.S.C. §§7701–7713, especially definitions and obligations tied to commercial electronic mail messages. Examine whether the message is transactional/relationship versus primarily commercial, including subject and body. A password reset is usually transactional, but mixed promotional content can complicate classification. Do not claim every email requires the same opt-out. [Official U.S. Code Title 15](https://uscode.house.gov/browse/prelim@title15/chapter103&edition=prelim).
+Check the CAN-SPAM Act, 15 U.S.C. §§7701–7713, especially definitions and obligations tied to commercial electronic mail messages. Examine whether the message is transactional/relationship versus primarily commercial, including subject and body. A password reset is usually transactional, but mixed promotional content can complicate classification. Do not claim every email requires the same opt-out. [Official U.S. Code Title 15](https://uscode.house.gov/browse/prelim@title15&edition=prelim).
 
 </details>
 
 ## Sources and permissions
-- [15 U.S.C. §45 — U.S. House Office of Law Revision Counsel](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&num=0&edition=prelim) [law].
+- [15 U.S.C. §45 — U.S. House Office of Law Revision Counsel](https://www.govinfo.gov/link/uscode/15/45) [law].
 - [FTC Everalbum proceeding](https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3172-everalbum-inc-matter) [settlement].
 - [GDPR official text, Article 3](https://eur-lex.europa.eu/eli/reg/2016/679/oj) [law].
 Original summaries only; official publication does not itself grant blanket rights to reproduce every third-party element on government websites.
+
+## Advanced seminar — statutory interpretation and issue spotting
+
+### A. Build a legal rule tree
+For every question, write four layers: **trigger** (who/what the rule regulates), **elements** (each condition), **qualifier** (exception, threshold, defense), and **consequence** (remedy or enforcement). For FTC Act §5, do not conflate *deception* and *unfairness*. For unfairness, Congress specified in §45(n) that substantial injury, reasonable avoidability, and countervailing benefits are relevant. For deception, consult the [FTC's official Policy Statement on Deception](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-deception) and distinguish agency policy from the statutory text.
+
+### B. A three-authority comparison
+1. **Statute:** 15 U.S.C. §45(a), §45(n) — enacted text. Extract the statutory prohibition and unfairness limitation.
+2. **Administrative order:** *In re Everalbum*, File 192-3172 — allegations resolved by consent. The May 2021 order does not establish judicial precedent against every facial recognition system.
+3. **Agency guidance:** FTC Start with Security — advice backed by lessons from enforcement; not a stand-alone federal security code.
+
+### C. Write a miniature IRAC
+**Issue:** Is “we delete every account immediately” deceptive when backups retain linked records?  
+**Rule:** Section 5 may apply to materially misleading representations; analyze exact claim and overall net impression, including limits clearly disclosed.  
+**Application:** Identify primary databases, backups, logs, third-party stores and promised deletion time. Differentiate immediately inaccessible from permanently erased.  
+**Conclusion:** Treat as a credible representation risk until implementation and exact wording are audited; avoid declaring liability based on the hypothetical alone.
+
+**Independent exercise:** Draft a 350-word IRAC for an AI résumé screener that calls a third-party model. Include three facts that could change the outcome and one exception or uncertainty.  
+**Evaluation rubric:** authority 30%; correct legal elements 30%; facts 25%; caveats 15%.
