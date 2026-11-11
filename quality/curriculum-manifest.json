@@ -40,7 +40,8 @@
     "quality/case-briefing.md",
     "quality/audit-matrix.md",
     "quality/final-examination.md",
-    "textbooks/07-international-technology-law/SOURCE_LEDGER.md"
+    "textbooks/07-international-technology-law/SOURCE_LEDGER.md",
+    "quality/MILESTONE8_AUDIT_2026-11-11.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -62,5 +63,7 @@
     "Linked source redistribution licenses are not presumed",
     "No specific EAR ECCN or OFAC authorization determination",
     "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review"
-  ]
+  ],
+  "audit_script": "scripts/audit_curriculum.py",
+  "audit_level": "Targeted structural and official-source checks; not exhaustive legal or external URL verification"
 }
