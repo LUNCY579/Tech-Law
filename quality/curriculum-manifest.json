@@ -64,7 +64,8 @@
     "research/2026-11-13/ARCHIVE_RECONCILIATION.md",
     "quality/RESEARCH_RECONCILIATION_2026-11-13.md",
     "quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md",
-    "quality/SOURCE_REGISTER_POLICY.md"
+    "quality/SOURCE_REGISTER_POLICY.md",
+    "casebook/2026-11-13-historic-opinion-source-clinic.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -77,6 +78,10 @@
     "pending_authentication": [
       "Specht v Netscape 2002",
       "Smith v Van Gorkom 1985"
+    ],
+    "reviewed_reproductions_with_later_primary_corroboration": [
+      "Specht v Netscape 2002 — noncourt opinion reproduction; 2014 GovInfo federal court citation; original pending",
+      "Smith v Van Gorkom 1985 — noncourt transcription; 2017/2024 Delaware Chancery treatment; original pending"
     ]
   },
   "limitations": [
@@ -85,7 +90,8 @@
     "Legal compliance depends on actual facts and jurisdictions",
     "Linked source redistribution licenses are not presumed",
     "No specific EAR ECCN or OFAC authorization determination",
-    "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review"
+    "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review",
+    "Original 1985/2002 issuing-court opinion copies not authenticated, despite limited later court citations"
   ],
   "audit_script": "scripts/audit_curriculum.py",
   "audit_level": "Offline structural and source-register metadata checks plus limited official-source review; NOT exhaustive legal currency, licensed-text reuse or a legal deadline calculation",
