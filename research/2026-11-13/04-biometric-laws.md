@@ -18,6 +18,10 @@ In particular, **§503.001(e)(2)** creates an exception for certain model/system
 
 Texas enforcement (including Attorney General civil penalties) should not be conflated with Illinois BIPA's private-right-of-action structure.
 
+## Washington: commercial-purpose enrollment, not a universal BIPA rule
+
+[RCW 19.375.010–.040](https://app.leg.wa.gov/RCW/default.aspx?cite=19.375.020) is materially different from Illinois and Texas. Its definition of **commercial purpose** concerns identifier sale/disclosure to a third party for unrelated marketing, and **enrollment** refers to a qualifying reference-template database. **§19.375.020(1)** provides alternatives of notice, consent **or** a mechanism preventing subsequent covered commercial use. **§19.375.020(7)** has a security-purpose exception, and **§19.375.030(2)** provides Attorney-General-only enforcement. Definitions and photograph/audio/video exclusions must be checked precisely. Read the [full Washington/Illinois/Texas comparison and exercises](15-washington-biometric-privacy.md) before assigning the same legal obligations to all three states.
+
 ## Comparative exercise
 
 A research team trains a general-purpose model from lawfully obtained images. Later, a customer enables identification of a named person from a face embedding, while another customer uses the model solely to detect fraudulent login attempts.

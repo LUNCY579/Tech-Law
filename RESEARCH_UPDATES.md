@@ -34,3 +34,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 20B — employment AI:** [Illinois video-interview and New York City AEDT law](research/2026-11-13/14-hiring-ai-video-and-aedt-2026.md) now distinguishes video-recording notice/consent and on-request deletion, §42/20 demographic reporting only for solely-AI progression decisions, separate Illinois 2026 AI employment discrimination/notice, and NYC independent bias audits and advance notices. The [official-source audit](quality/MILESTONE20_HIRING_SOURCE_AUDIT_2026-11-13.md) preserves the future Jan. 2027 Illinois statutory-version boundary and vendor/employer role caveats.
+
+
+**Milestone 21A — biometrics:** [Washington RCW 19.375](research/2026-11-13/15-washington-biometric-privacy.md) is now included with a close comparison to Illinois BIPA and Texas commercial biometric collection. Washington's narrow enrollment/commercial-purpose definitions, **notice OR consent OR prevention** alternatives, security exception and AG-only enforcement materially differ from Illinois. See the [official-subsection source receipt](quality/MILESTONE21_BIOMETRIC_AUDIT_2026-11-13.md). No cross-state biometric legal certification is implied.
