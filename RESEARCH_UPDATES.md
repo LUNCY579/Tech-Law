@@ -25,3 +25,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 19A — material Maryland correction:** [Current Maryland MODPA codification and 2026 HB711 / Ch874](research/2026-11-13/11-maryland-modpa-2026-amendments.md) are now documented with active **§§14-4701–14-4714** citations and linked current official text. The 2024 Ch454 **§14-46xx** numbers remain historical only. Includes expanded inferred-sensitive-data, geolocation, government sales and certain subpoena/cooperation provisions; see [verification receipt](quality/MILESTONE19_MARYLAND_2026_AUDIT.md). This is a targeted source audit, not full statewide subsequent-history certification.
+
+
+**Milestone 19B — separate Oregon 2026 ALPR statute:** [Oregon Laws 2026 chapter 77 / SB1516](research/2026-11-13/12-oregon-alpr-law-and-vendor-contracts.md), effective March 31, 2026, has independent rules for law-enforcement ALPR use, 30-day default noncase data retention, agency/vendor contracts, audits and vendor remedies. It does **not** amend the OCPA §§646A.570–.589. See the [primary-source audit](quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md). Actual deployment remains subject to qualifying roles, exceptions, policies and attorney review.

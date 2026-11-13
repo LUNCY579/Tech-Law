@@ -37,7 +37,7 @@ CI runs these steps on PRs and `main`. The watchlist audit checks schema, unique
 
 ## Immediate editorial follow-ups
 
-- Oregon: widen beyond the direct-amendment check for ORS 646A.570–.589, including any additional enacted uncodified privacy law, judicial later history and case-specific exceptions. See [Milestone 18 source review](MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md).
+- Oregon: widen beyond the direct-amendment check for ORS 646A.570–.589. The [Milestone 19 ALPR chapter](../research/2026-11-13/12-oregon-alpr-law-and-vendor-contracts.md) already identifies **2026 Ch.77**, a separate agency/vendor rule missed by OCPA-only section index scanning. Other new and uncodified enactments, judicial later history and case-specific exceptions remain open. See [Milestone 18 source review](MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md).
 - Maryland: compare post-2024 signed acts and the most current codified MODPA sections.
 - California: for live incident response, corroborate state-published 2026 Civil Code §1798.82 excerpts with the operative legislature code and exception facts.
 - Historical judicial cases: continue locating issuing-court originals for *Specht* and *Van Gorkom*, without relabeling unofficial reproductions as originals.

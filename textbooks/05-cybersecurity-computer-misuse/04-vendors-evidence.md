@@ -1,5 +1,9 @@
 # Chapter 4 — Third-party processors, contracting and security evidence
 
+## Oregon 2026 public-safety technology vendor example
+
+The [Oregon automated license-plate-reader statute, Oregon Laws 2026 chapter 77](../../research/2026-11-13/12-oregon-alpr-law-and-vendor-contracts.md), is a concrete case where **agency-owned data**, contract terms, access restrictions, encryption, periodic audits, retention rules and special vendor liability interact. It applies to the defined **law-enforcement ALPR** context; a generic SaaS risk checklist cannot substitute for §§3–9 or actual contract review. See the [source audit](../../quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md).
+
 ## Vendor due diligence
 Inventory API providers, infrastructure, analytics, email, payment, model inference, embeddings, logging and customer-support tools. Capture for each: data fields, purpose, retention, region, subprocessor chain, access rights, deletion, security representation, audit and incident notice. A provider's public marketing claim is not necessarily the executed contractual commitment.
 
