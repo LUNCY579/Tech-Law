@@ -23,3 +23,8 @@ Before employers rely on rankings: analyze [42 U.S.C. §2000e-2](https://uscode.
 
 ## Exercise
 An applicant owns a verified credential but withdraws public publication. Employer still possesses an old screenshot. **Answer:** Revoke live platform access as applicable; distinguish already obtained copies, contractual restrictions, and retention/legal-hold issues. Don't falsely promise technological erasure of every external copy.
+
+
+## Milestone 20: automated selection versus credential proof
+
+A signed job-assessment score is evidence of **issuer-authenticated provenance**, not evidence that an employer complied with hiring law. The [Illinois and NYC automated hiring lesson](../../research/2026-11-13/14-hiring-ai-video-and-aedt-2026.md) distinguishes **Illinois video-interview consent/deletion (820 ILCS 42)**, **Illinois anti-discrimination and AI employee notice (775 ILCS 5/2-102(L))**, and **NYC Local Law 144 AEDT employer bias-audit/publication/notice obligations**. A vendor’s self-produced “fairness certificate” does not substitute for an independent audit where required, nor establish Title VII or ADA validation. Preserve score, employer decision-use facts, source versions, independent-auditor provenance and all unresolved exceptions.
