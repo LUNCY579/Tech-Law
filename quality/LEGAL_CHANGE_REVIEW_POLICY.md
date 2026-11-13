@@ -10,6 +10,7 @@ The [source register](../research/2026-11-13/source-register.csv) identifies a p
 |---|---|---|
 | `INDEX_SCOPE_CHECKED` | An official amendment table was inspected for a named section range | A claim that every newly enacted or uncodified law is absent or that the underlying law is current in every respect |
 | `TARGETED_PRIMARY_TEXT_CHECKED` | Specific cited primary-law section(s) were examined | A full subsequent-history review, proof all amendments/definitions were captured, or a company's compliance |
+| `JUDICIAL_ORDER_CHECKED` | The **issuing court’s** specified opinion/order text and procedural disposition were checked for the stated case/date | A complete citator, later docket history, universal effect on all parties or a final merits judgment |
 | `PENDING_REVIEW` | A useful unresolved legal question has a source and next manual review target | Any assertion that the issue is closed or that someone is monitoring it automatically |
 
 The statuses are **not** judicial authority rankings or numeric probability/confidence scores.
@@ -31,7 +32,7 @@ python3 scripts/audit_legal_change_watchlist.py
 python3 -m unittest discover -s tests -v
 ```
 
-CI runs these steps on PRs and `main`. The watchlist audit checks schema, unique IDs, nonempty scope/limitations, valid dates, chronological date order, source/jurisdiction and official URL equality, and credible source-type/status combinations. An **index check cannot masquerade as reviewed enacted text** in that metadata.
+CI runs these steps on PRs and `main`. The watchlist audit checks schema, unique IDs, nonempty scope/limitations, valid dates, chronological date order, source/jurisdiction and official URL equality, and credible source-type/status combinations. An **index check cannot masquerade as reviewed enacted text**, and a statute cannot masquerade as an authenticated judicial order, in that metadata. Court orders can also be vacated or superseded; a historical panel opinion must be flagged accordingly, not treated as current precedent.
 
 **Explicitly outside automated scope:** visiting legal websites; reading statute text; tracing uncodified law, pending bills, agency regulation or case citations; validating source usage permissions; confirming the law at a later date; contacting qualified counsel; or performing a scheduled follow-up. `next_review_target` is only a *human planning field*.
 
