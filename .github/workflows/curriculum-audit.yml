@@ -10,6 +10,7 @@ on:
     paths:
       - '**/*.md'
       - 'quality/*.json'
+      - 'quality/*.csv'
       - 'research/**/*.csv'
       - 'scripts/**'
       - 'tests/**'
@@ -36,3 +37,5 @@ jobs:
         run: python3 scripts/audit_curriculum.py
       - name: Audit source register and breach obligation metadata
         run: python3 scripts/audit_source_register.py
+      - name: Audit legal claim review-watchlist metadata
+        run: python3 scripts/audit_legal_change_watchlist.py

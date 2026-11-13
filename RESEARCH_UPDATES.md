@@ -19,3 +19,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 18A (Oregon amended-law reconciliation):** An accessible [official consolidated 2026 A&R table](https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2026OrLawAR.pdf) resolves the prior 403 **for the direct-amendment index**: no direct 2026 changes listed for **ORS 646A.570–646A.589**. This does not erase **2025** privacy amendments that began **January 2026**, nor [2026 Oregon Laws chapter 96](https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2026orLaw0096.pdf), a separate **public-body/data-broker attestation** law. See [the research and case exercises](research/2026-11-13/10-oregon-session-law-reconciliation.md) and [verification receipt](quality/MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md). Other new/uncodified enactments and case history remain to be reviewed.
+
+
+**Milestone 18B — editorial source-review guardrails:** [claim-level watchlist](quality/legal-change-watchlist.csv), [review policy](quality/LEGAL_CHANGE_REVIEW_POLICY.md) and [offline QA script](scripts/audit_legal_change_watchlist.py) separate **index-checked**, **targeted primary-text-checked**, and **pending** propositions. They record planned *manual* review dates only, not live legal monitoring or legal validation.
