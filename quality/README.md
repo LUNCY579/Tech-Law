@@ -34,3 +34,7 @@ Quarterly recheck regulatory deadlines and link integrity; review amendments at 
 ## Milestone 16: source and breach-law record integrity (November 13, 2026)
 
 The [six-state statute audit](MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) documents the CA/TX/IL/MA/WA/FL breach-notification research receipt. The [source-register policy](SOURCE_REGISTER_POLICY.md) and `scripts/audit_source_register.py` add offline CSV metadata validation, reference-status guardrails and nine regression checks to the GitHub Actions workflow. These tests do **not** verify live laws, source URL availability, legal interpretation, subsequent court history or product compliance.
+
+## Milestone 18 — amendment-index and claim-review controls (November 13, 2026)
+
+The [Oregon 2026 legislative amendment receipt](MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md) is backed by a separate [claim-level review watchlist](legal-change-watchlist.csv), its [evidence-grade and manual-review policy](LEGAL_CHANGE_REVIEW_POLICY.md), and `scripts/audit_legal_change_watchlist.py`. It records exact checked scope, source IDs, unresolved questions and next *manual* review targets. Unit tests and GitHub Actions reject mismatched source types and malformed records. These checks do **not** browse government sites, operate a legal change alert, guarantee laws are current or certify a product.
