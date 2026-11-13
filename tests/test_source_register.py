@@ -69,6 +69,16 @@ class SourceRegisterAuditTests(unittest.TestCase):
         self.write(sources=[dict(self.source, official_url="http://not-official.example")])
         self.assertTrue(any("nonofficial/non-HTTPS" in x for x in audit.audit(self.root)))
 
+    def test_vetted_oregon_doj_legacy_host(self):
+        self.assertTrue(audit.official_source_url(
+            "https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/"))
+
+    def test_spoofed_oregon_domain_rejected(self):
+        self.assertFalse(audit.official_source_url(
+            "https://www.doj.state.or.us.evil.example/mirror"))
+        self.assertFalse(audit.official_source_url(
+            "https://www.random.state.or.us/"))
+
     def test_missing_source_reference(self):
         self.write(rows=[dict(self.row, source_id="MISSING")])
         self.assertTrue(any("unknown source_id" in x for x in audit.audit(self.root)))
