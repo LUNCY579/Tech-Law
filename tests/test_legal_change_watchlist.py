@@ -82,6 +82,34 @@ class ChangeWatchlistTests(unittest.TestCase):
         self.write(claims=[dict(self.claim, evidence_url="https://example.com/law")])
         self.assertTrue(any("evidence URL differs" in x for x in watch.audit(self.root)))
 
+    def test_judicial_order_claim_accepted(self):
+        court = dict(
+            self.source, source_type="judicial_order",
+            status="OFFICIAL_JUDICIAL_ORDER",
+            official_url="https://www.ca5.uscourts.gov/opinions/pub/25/25-50096-CV1.pdf"
+        )
+        claim = dict(
+            self.claim, review_status="JUDICIAL_ORDER_CHECKED",
+            evidence_url=court["official_url"],
+            scope_checked="Fifth_Circuit_October_2026_en_banc_vacatur"
+        )
+        self.write(source_rows=[court], claims=[claim])
+        self.assertEqual(watch.audit(self.root), [])
+
+    def test_judicial_order_cannot_be_any_statute(self):
+        self.write(claims=[dict(self.claim, review_status="JUDICIAL_ORDER_CHECKED")])
+        self.assertTrue(any("requires judicial_order source" in x for x in watch.audit(self.root)))
+
+    def test_judicial_order_requires_official_status(self):
+        court = dict(
+            self.source, source_type="judicial_order", status="REQUIRES_FURTHER_REVIEW"
+        )
+        self.write(source_rows=[court], claims=[
+            dict(self.claim, review_status="JUDICIAL_ORDER_CHECKED")
+        ])
+        self.assertTrue(any("requires authenticated official judicial order" in x
+                            for x in watch.audit(self.root)))
+
     def test_pending_requires_open_question(self):
         self.write(claims=[dict(self.claim, review_status="PENDING_REVIEW", open_question="")])
         self.assertTrue(any("empty open_question" in x for x in watch.audit(self.root)))
