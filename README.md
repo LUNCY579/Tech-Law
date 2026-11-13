@@ -1,5 +1,7 @@
 # Tech Law for AI Startup Founders
 
+**November 2026 research supplement:** [source-linked legal updates](RESEARCH_UPDATES.md) compare the later milestone archive with applicable state and federal law and the amended EU AI Act, with explicit evidentiary limits.
+
 An evidence-first, self-study curriculum in technology law, startup formation, software/IP licensing, data protection, AI governance, and commercial launch risks.
 
 **Scope:** Primarily United States federal law, with Delaware corporate law, California privacy law, and EU AI law for comparison. **As-of:** 2026-11-10. **Educational only, not legal advice.** Laws and agency interpretations change; verify the current official text before reliance.
@@ -10,7 +12,7 @@ An evidence-first, self-study curriculum in technology law, startup formation, s
 - **[Repeatable structural link/manifest audit](scripts/audit_curriculum.py)** — run locally with `python3 scripts/audit_curriculum.py`. This is a no-network structure check; it cannot verify legal correctness or outside link availability.
 - **[Updated EU–U.S. DPF litigation section](textbooks/07-international-technology-law/02-data-transfers.md)** — 2025 *Latombe* judgment and pending appeal noted without assuming a final appellate outcome.
 
-**Release gate:** PR remains unmerged. The review has not exhaustively verified every external URL, every amendment, every judicial subsequent history, or legal reuse rights for all linked materials.
+**Historical Milestone 8 gate:** PR #1 was subsequently merged into main on November 13, 2026. The earlier audit did not exhaustively verify every external URL, every amendment, every judicial subsequent history, or legal reuse rights for all linked materials.
 
 ## Milestone 7: International Technology Law and Cross-Border Commercialization
 
@@ -47,7 +49,7 @@ Both textbooks provide original explanations with primary official sources and f
 
 ## New: primary-source casebook (Milestone 2)
 
-Read the [casebook index](casebook/README.md) for detailed judicial case briefs, the [statutory interpretation lab](casebook/statutory-reading-lab.md), and the [verification register](casebook/SOURCE_REGISTER.md). The casebook is maintained on the open curriculum PR branch until merged. Historic opinions without authenticated official copies are specifically marked **pending**, not represented as verified.
+Read the [casebook index](casebook/README.md) for detailed judicial case briefs, the [statutory interpretation lab](casebook/statutory-reading-lab.md), and the [verification register](casebook/SOURCE_REGISTER.md). The casebook was merged through PR #1 on November 13, 2026; source-authentication work for some historical opinions remains open. Historic opinions without authenticated official copies are specifically marked **pending**, not represented as verified.
 
 ## Learning sequence
 
