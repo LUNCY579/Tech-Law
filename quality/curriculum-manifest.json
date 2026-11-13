@@ -70,7 +70,8 @@
     "casebook/2026-11-13-historic-opinion-source-clinic.md",
     "quality/MILESTONE17_STATE_PRIVACY_AUDIT_2026-11-13.md",
     "quality/MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md",
-    "quality/LEGAL_CHANGE_REVIEW_POLICY.md"
+    "quality/LEGAL_CHANGE_REVIEW_POLICY.md",
+    "quality/MILESTONE19_MARYLAND_2026_AUDIT.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -97,7 +98,7 @@
     "No specific EAR ECCN or OFAC authorization determination",
     "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review",
     "Original 1985/2002 issuing-court opinion copies not authenticated, despite limited later court citations",
-    "Oregon 2026 direct-amendment table rechecked; remaining new/uncodified-law completeness unverified; Maryland post-2024 amendment check incomplete"
+    "Oregon 2026 direct-amendment table rechecked; remaining new/uncodified-law completeness unverified; Maryland Ch874 and current code checked; all-other-amendments/case-history sweep incomplete"
   ],
   "audit_script": "scripts/audit_curriculum.py",
   "audit_level": "Offline internal links, source-register and claim-review metadata tests; targeted official source review, NOT legal currentness certification",

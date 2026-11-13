@@ -22,3 +22,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 18B — editorial source-review guardrails:** [claim-level watchlist](quality/legal-change-watchlist.csv), [review policy](quality/LEGAL_CHANGE_REVIEW_POLICY.md) and [offline QA script](scripts/audit_legal_change_watchlist.py) separate **index-checked**, **targeted primary-text-checked**, and **pending** propositions. They record planned *manual* review dates only, not live legal monitoring or legal validation.
+
+
+**Milestone 19A — material Maryland correction:** [Current Maryland MODPA codification and 2026 HB711 / Ch874](research/2026-11-13/11-maryland-modpa-2026-amendments.md) are now documented with active **§§14-4701–14-4714** citations and linked current official text. The 2024 Ch454 **§14-46xx** numbers remain historical only. Includes expanded inferred-sensitive-data, geolocation, government sales and certain subpoena/cooperation provisions; see [verification receipt](quality/MILESTONE19_MARYLAND_2026_AUDIT.md). This is a targeted source audit, not full statewide subsequent-history certification.
