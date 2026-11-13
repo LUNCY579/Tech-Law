@@ -110,6 +110,19 @@ class ChangeWatchlistTests(unittest.TestCase):
         self.assertTrue(any("requires authenticated official judicial order" in x
                             for x in watch.audit(self.root)))
 
+    def test_vacated_judicial_panel_not_valid_current_order(self):
+        vacated = dict(
+            self.source, source_type="judicial_order", status="VACATED",
+            official_url="https://www.ca5.uscourts.gov/opinions/pub/25/25-50096-CV0.pdf"
+        )
+        claim = dict(
+            self.claim, review_status="JUDICIAL_ORDER_CHECKED",
+            evidence_url=vacated["official_url"]
+        )
+        self.write(source_rows=[vacated], claims=[claim])
+        self.assertTrue(any("requires authenticated official judicial order" in x
+                            for x in watch.audit(self.root)))
+
     def test_pending_requires_open_question(self):
         self.write(claims=[dict(self.claim, review_status="PENDING_REVIEW", open_question="")])
         self.assertTrue(any("empty open_question" in x for x in watch.audit(self.root)))
