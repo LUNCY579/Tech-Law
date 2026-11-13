@@ -69,7 +69,8 @@
     "quality/SOURCE_REGISTER_POLICY.md",
     "casebook/2026-11-13-historic-opinion-source-clinic.md",
     "quality/MILESTONE17_STATE_PRIVACY_AUDIT_2026-11-13.md",
-    "quality/MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md"
+    "quality/MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md",
+    "quality/LEGAL_CHANGE_REVIEW_POLICY.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -99,8 +100,11 @@
     "Oregon 2026 direct-amendment table rechecked; remaining new/uncodified-law completeness unverified; Maryland post-2024 amendment check incomplete"
   ],
   "audit_script": "scripts/audit_curriculum.py",
-  "audit_level": "Offline structural and source-register metadata checks plus limited official-source review; NOT exhaustive legal currency, licensed-text reuse or a legal deadline calculation",
+  "audit_level": "Offline internal links, source-register and claim-review metadata tests; targeted official source review, NOT legal currentness certification",
   "research_metadata_audit": "scripts/audit_source_register.py",
   "research_register": "research/2026-11-13/source-register.csv",
-  "breach_obligation_register": "research/2026-11-13/breach-obligations.csv"
+  "breach_obligation_register": "research/2026-11-13/breach-obligations.csv",
+  "legal_change_review_policy": "quality/LEGAL_CHANGE_REVIEW_POLICY.md",
+  "legal_change_watchlist": "quality/legal-change-watchlist.csv",
+  "legal_change_watchlist_audit": "scripts/audit_legal_change_watchlist.py"
 }
