@@ -30,3 +30,7 @@ These are **editorial grades**, not judicial authority rankings or outcome confi
 
 ## Practical cadence
 Quarterly recheck regulatory deadlines and link integrity; review amendments at each launch or financing. Perform case subsequent-history checks before relying on precedent in a filing or transaction. A passing course test does not confer legal or compliance certification.
+
+## Milestone 16: source and breach-law record integrity (November 13, 2026)
+
+The [six-state statute audit](MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) documents the CA/TX/IL/MA/WA/FL breach-notification research receipt. The [source-register policy](SOURCE_REGISTER_POLICY.md) and `scripts/audit_source_register.py` add offline CSV metadata validation, reference-status guardrails and nine regression checks to the GitHub Actions workflow. These tests do **not** verify live laws, source URL availability, legal interpretation, subsequent court history or product compliance.
