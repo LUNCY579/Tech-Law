@@ -28,3 +28,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 19B — separate Oregon 2026 ALPR statute:** [Oregon Laws 2026 chapter 77 / SB1516](research/2026-11-13/12-oregon-alpr-law-and-vendor-contracts.md), effective March 31, 2026, has independent rules for law-enforcement ALPR use, 30-day default noncase data retention, agency/vendor contracts, audits and vendor remedies. It does **not** amend the OCPA §§646A.570–.589. See the [primary-source audit](quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md). Actual deployment remains subject to qualifying roles, exceptions, policies and attorney review.
+
+
+**Milestone 20A — children's data:** [COPPA final-rule and 2026 compliance study](research/2026-11-13/13-coppa-2026-children-and-games.md) covers FTC's enacted 2025 amendments, separate parental consent for certain disclosures, new biometric identifiers, retention and security evidence. A [targeted source audit](quality/MILESTONE20_COPPA_SOURCE_AUDIT_2026-11-13.md) distinguishes effective and compliance dates and unfinalized rule proposals. Applicable operator facts and legal exceptions remain open.
