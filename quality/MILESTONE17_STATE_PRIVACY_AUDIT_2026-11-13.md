@@ -28,3 +28,6 @@
 - Updated curriculum and source-checker metadata. Existing federal and EU lessons unaffected.
 
 **Disposition:** qualified academic research suitable for a self-study book; **not** an implementation signoff. Next P0 is section-by-section Oregon 2026 session-law review, and a Maryland codified-amendment comparison before actual deployment.
+## Dated follow-up — Milestone 18 (same day; independent official table)
+
+The 403 recorded above describes **the earlier access attempt**. The [Milestone 18 official-law receipt](MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md) records successful inspection of the **2026 consolidated A&R table (RS26-T-4)** and **2025 special-session table (SS25-T-1)**. Neither lists a direct amendment to **ORS 646A.570–646A.589**, but 2026 Oregon Laws **chapter 96** enacted a separate public-body/data-broker rule. The narrower table-access P0 is **resolved**; comprehensive new and uncodified law checks remain open. This note preserves the historical status at the time of this earlier audit.
