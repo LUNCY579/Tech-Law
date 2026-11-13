@@ -6,7 +6,7 @@
 
 - [9 U.S.C. §2 — Federal Arbitration Act](https://www.govinfo.gov/link/uscode/9/2) (federal statute). Arbitration enforcement presupposes an agreement governed by applicable contract principles.
 - [*Coinbase, Inc. v. Suski*, No. 23-3, slip op. (U.S. May 23, 2024)](https://www.supremecourt.gov/opinions/23pdf/23-3_879d.pdf) (official majority opinion).
-- *Specht v. Netscape Communications Corp.*, 306 F.3d 17 (2d Cir. 2002): reporter citation widely available, but **no authentic official court-hosted full text independently located for this milestone**. No fabricated official link or quote.
+- [*Specht v. Netscape Communications Corp.*, 306 F.3d 17 (2d Cir. 2002)](2026-11-13-historic-opinion-source-clinic.md): court-formatted opinion and reporter text researched; **original issuing-court-hosted copy remains pending**. A later [federal judicial order (GovInfo)](https://www.govinfo.gov/content/pkg/USCOURTS-mad-1_13-cv-11701/pdf/USCOURTS-mad-1_13-cv-11701-0.pdf) cites the notice standard; not a comprehensive citator.
 
 ## 2. Verified case brief — *Coinbase v. Suski*
 
@@ -30,7 +30,7 @@
 
 ## 3. Historical comparison — *Specht v. Netscape*
 
-**Verified reporter reference; official-document verification pending.** Traditional summary: software users could download a component without encountering license terms located below the download button; the court rejected compelled arbitration for users lacking reasonable notice and unambiguous assent. A distinct portion of the case addressed attempts to bind a website operator who was not a party. Treat this as a research lead until an authenticated court opinion has been collected.
+**Third-party opinion reproduction inspected; issuing-court original still pending.** Users could download the **SmartDownload plugin** without adequate notice of its license terms located below the download button. A **separate Communicator browser installation** did use affirmative license acceptance; do not conflate the two agreements. The panel held that users lacked sufficiently communicated terms and unambiguous assent to the SmartDownload arbitration clause, and rejected binding a non-signatory website owner based on the attenuated claimed indirect benefit. Its analysis used California law. See the [pinpoint and provenance memo](2026-11-13-historic-opinion-source-clinic.md), plus *Specht*, 306 F.3d at 20, 28–35 (verify original before formal filing).
 
 **Distinguish the two questions:** *Specht* concerns whether the party agreed at all; *Coinbase* concerns which agreement governs and who resolves competing contract terms. A generic “clickwrap always wins” slogan misstates both.
 
