@@ -1,0 +1,18 @@
+id,jurisdiction,source_type,status,date,official_url,critical_caveat
+EU-OMNIBUS,EU,primary_regulation,ENACTED_AND_APPLICABLE,2026-07-27,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744,Apply amended article-specific timing
+EU-TIMELINE,EU,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline,Check transitional provisions
+CO-SB26-189,Colorado,enacted_statute,ENACTED_FUTURE,2027-01-01,https://leg.colorado.gov/bills/sb26-189,Some rulemaking provisions earlier
+IL-EMP,Illinois,state_statute,ENACTED_AND_APPLICABLE,2026-01-01,https://www.ilga.gov/legislation/ILCS/details?ActID=2266,Check prospective-amendment text
+NYC-AEDT,New York City,city_law_and_agency_guidance,ENACTED_AND_APPLICABLE,2023-07-05,https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page,Requires covered tool use
+CA-CPPA,California,state_regulation,ENACTED_AND_APPLICABLE,2026-01-01,https://cppa.ca.gov/regulations/ccpa_updates,Phased feature obligations
+WA-BREACH,Washington,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010,Discovery plus statutory exceptions
+FL-BREACH,Florida,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://www.flsenate.gov/Laws/Statutes/2026/501.171,Separate resident and regulator notices
+CA-BREACH,California,state_statute,REQUIRES_FURTHER_REVIEW,2026-11-13,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.82.&lawCode=CIV,Archive reported official source blocker
+IL-BIPA,Illinois,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://ilga.gov/legislation/ilcs/fulltext?DocName=074000140K10,Check definition and exceptions
+IL-BIPA-PA,Illinois,enacted_amendment,ENACTED_AND_APPLICABLE,2024-08-02,https://www.ilga.gov/Legislation/publicacts/view/103-0769,Repeated-collection damages changed
+TX-CUBI,Texas,state_statute,ENACTED_AND_APPLICABLE,2026-01-01,https://statutes.capitol.texas.gov/?artSec=503.001&chapter=BC.503&code=BC&tab=1,2026 AI exclusions are conditional
+FTC-NEGOPTION,Federal,rule_and_judicial_history,ENACTED_AND_APPLICABLE,2026-02-11,https://www.ftc.gov/policy/public-comments/revision-negative-option-rule-withdrawal-cars-rule-removal-non-compete-rule-conform-these-rules-0,2024 rule vacated
+ROSCA,Federal,federal_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://uscode.house.gov/us/usc/119-124/t15/s8403/,Only statutory scope covered
+CFPB-2024-06,Federal,agency_guidance,WITHDRAWN,2025-05-12,https://www.consumerfinance.gov/compliance/guidance/withdrawn-guidance/,FCRA remains in effect
+TAKE-IT-DOWN,Federal,federal_statute,ENACTED_AND_APPLICABLE,2026-05-19,https://www.govinfo.gov/app/details/PLAW-119publ12,Covered platform and notice conditions
+EEOC-TESTS,Federal,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures,Guidance not law

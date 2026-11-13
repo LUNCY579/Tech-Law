@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
-  "review_date": "2026-11-11",
+  "review_date": "2026-11-13",
   "jurisdictions": [
     "US federal",
     "Delaware",
     "California",
-    "EU"
+    "EU",
+    "Colorado",
+    "Illinois",
+    "New York City",
+    "Washington",
+    "Florida",
+    "Texas"
   ],
   "textbooks": [
     {
@@ -29,6 +35,16 @@
       "chapter_count": 5
     },
     {
+      "id": "cybersecurity",
+      "index": "textbooks/05-cybersecurity-computer-misuse/README.md",
+      "chapter_count": 5
+    },
+    {
+      "id": "employment-ai",
+      "index": "textbooks/06-employment-ai-assessments/README.md",
+      "chapter_count": 5
+    },
+    {
       "id": "international-technology-law",
       "index": "textbooks/07-international-technology-law/README.md",
       "chapter_count": 6
@@ -41,7 +57,11 @@
     "quality/audit-matrix.md",
     "quality/final-examination.md",
     "textbooks/07-international-technology-law/SOURCE_LEDGER.md",
-    "quality/MILESTONE8_AUDIT_2026-11-11.md"
+    "quality/MILESTONE8_AUDIT_2026-11-11.md",
+    "RESEARCH_UPDATES.md",
+    "research/2026-11-13/README.md",
+    "research/2026-11-13/ARCHIVE_RECONCILIATION.md",
+    "quality/RESEARCH_RECONCILIATION_2026-11-13.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -65,5 +85,5 @@
     "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review"
   ],
   "audit_script": "scripts/audit_curriculum.py",
-  "audit_level": "Targeted structural and official-source checks; not exhaustive legal or external URL verification"
+  "audit_level": "Offline structural and targeted official-source checks; not exhaustive legal correctness, external URL, or rights verification"
 }
