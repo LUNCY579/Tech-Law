@@ -75,7 +75,8 @@
     "quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md",
     "quality/MILESTONE20_COPPA_SOURCE_AUDIT_2026-11-13.md",
     "quality/MILESTONE20_HIRING_SOURCE_AUDIT_2026-11-13.md",
-    "quality/MILESTONE21_BIOMETRIC_AUDIT_2026-11-13.md"
+    "quality/MILESTONE21_BIOMETRIC_AUDIT_2026-11-13.md",
+    "quality/MILESTONE21_CHILD_SAFETY_LITIGATION_AUDIT_2026-11-13.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -83,7 +84,9 @@
       "Google v Oracle 2021",
       "Van Buren 2021",
       "Warhol v Goldsmith 2023",
-      "Bostock v Clayton County 2020"
+      "Bostock v Clayton County 2020",
+      "NetChoice v Bonta Ninth Circuit March 2026 preliminary injunction opinion",
+      "CCIA v Paxton Fifth Circuit October 2026 en banc vacatur order"
     ],
     "pending_authentication": [
       "Specht v Netscape 2002",
@@ -92,6 +95,9 @@
     "reviewed_reproductions_with_later_primary_corroboration": [
       "Specht v Netscape 2002 — noncourt opinion reproduction; 2014 GovInfo federal court citation; original pending",
       "Smith v Van Gorkom 1985 — noncourt transcription; 2017/2024 Delaware Chancery treatment; original pending"
+    ],
+    "historical_not_controlling": [
+      "CCIA and NetChoice v Paxton July 24 2026 Fifth Circuit panel opinion — vacated Oct 28 2026"
     ]
   },
   "limitations": [
@@ -106,7 +112,8 @@
     "Oregon 2026 ALPR Ch77 researched; other newly enacted and uncodified privacy-related statutes are not exhaustively covered",
     "Children's privacy: COPPA final-rule sections sampled; no individual service classification or all-state child privacy certification",
     "AI hiring: verified selected Illinois statutes and NYC guidance, not independent bias-audit certification, job-related validity or counsel review",
-    "Washington biometric law checked for selected RCW subsections only; no full state-by-state biometric or case-law citator coverage"
+    "Washington biometric law checked for selected RCW subsections only; no full state-by-state biometric or case-law citator coverage",
+    "2026 Fifth Circuit SCOPE en banc rehearing pending and California replacement enactment has official bill-viewer 403; no complete injunction/docket review"
   ],
   "audit_script": "scripts/audit_curriculum.py",
   "audit_level": "Offline internal links, source-register and claim-review metadata tests; targeted official source review, NOT legal currentness certification",
