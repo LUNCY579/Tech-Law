@@ -18,6 +18,7 @@ This review compares the current seven-textbook main branch with the uploaded co
 10. [Maryland 2026 MODPA amendments](11-maryland-modpa-2026-amendments.md): current §14-47xx code, HB711 Ch874 and applied exercises.
 11. [Oregon ALPR and vendor data law](12-oregon-alpr-law-and-vendor-contracts.md): independent 2026 chapter 77 with agency/vendor purpose, retention, audits, contract security and remedies.
 12. [COPPA: child privacy and games](13-coppa-2026-children-and-games.md): the 2025 final FTC rule, main 2026 compliance date, under-13 coverage, separate disclosure consent, biometric scope and retention.
+13. [Illinois/NYC automated hiring law](14-hiring-ai-video-and-aedt-2026.md): recorded-video consent/deletion, AI employment discrimination, NYC AEDT audit and notice, employer/vendor differences.
 
 [Milestone 16 source audit](../../quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) | [Claim-by-claim evidence register](source-register.csv) | [Archive reconciliation and release gates](ARCHIVE_RECONCILIATION.md)
 
