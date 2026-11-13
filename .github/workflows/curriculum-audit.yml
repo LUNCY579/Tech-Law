@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'research/**'
+      - 'milestone*/**'
   pull_request:
     paths:
       - '**/*.md'
@@ -33,3 +34,5 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Audit curriculum structure
         run: python3 scripts/audit_curriculum.py
+      - name: Audit source register and breach obligation metadata
+        run: python3 scripts/audit_source_register.py
