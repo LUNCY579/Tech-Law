@@ -34,6 +34,10 @@ Subject to subsection (3)'s exceptions, **a public body** may not disclose cover
 
 **What this does not say:** This enactment is **not** a blanket ban on every private-to-private data broker sale, a repeal of OCPA, or an amendment to every OCPA controller obligation. The statutory rule's key obligated actor is the **public body**. The broker has an attestation role. It is distinct from the pre-existing data broker registration scheme at **ORS 646A.593**.
 
+## Milestone 19 follow-up: Oregon's separate 2026 ALPR statute
+
+The narrower 2026 A&R index review did **not** capture the separately enacted **[Oregon Laws 2026, chapter 77 (SB 1516)](https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2026orLaw0077.pdf)**, effective March 31, 2026. Sections 3–9 regulate Oregon **law-enforcement agencies'** automated license-plate reader systems, captured data and the **vendors contracting with those agencies**. See the [new sector-specific casebook](12-oregon-alpr-law-and-vendor-contracts.md) and [official source receipt](../../quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md). This is **not a direct amendment to ORS 646A.570–646A.589**, nor a general ban on ordinary private vehicle telemetry; it confirms why an indexed code section is **not** a complete search of new or uncodified law.
+
 ## 4. Founder and engineering scenarios (synthetic)
 
 **Game analytics:** An SDK captures a user's exact location. Apply OCPA threshold and controller/processor facts first, then ask whether data are sold, whether they locate within the statutory radius, whether the SDK receives a universal opt-out signal, and how consent revocation is enforced. Do not equate a marketing statement (“we do not sell”) with a completed data-flow review.
