@@ -38,3 +38,7 @@ The [six-state statute audit](MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) doc
 ## Milestone 18 — amendment-index and claim-review controls (November 13, 2026)
 
 The [Oregon 2026 legislative amendment receipt](MILESTONE18_OREGON_SOURCE_AUDIT_2026-11-13.md) is backed by a separate [claim-level review watchlist](legal-change-watchlist.csv), its [evidence-grade and manual-review policy](LEGAL_CHANGE_REVIEW_POLICY.md), and `scripts/audit_legal_change_watchlist.py`. It records exact checked scope, source IDs, unresolved questions and next *manual* review targets. Unit tests and GitHub Actions reject mismatched source types and malformed records. These checks do **not** browse government sites, operate a legal change alert, guarantee laws are current or certify a product.
+
+## Milestone 21 — court-order source and version discipline
+
+The [child online-safety court/source audit](MILESTONE21_CHILD_SAFETY_LITIGATION_AUDIT_2026-11-13.md) distinguishes **official court opinions and en banc orders** from enacted primary law, draft legislation and third-party chaptered reproductions. The source watchlist now supports `JUDICIAL_ORDER_CHECKED` only for `judicial_order` entries with `OFFICIAL_JUDICIAL_ORDER` source status. The **July 24, 2026 Fifth Circuit Texas SCOPE panel opinion was vacated on October 28**, so it remains historical and cannot be treated as controlling appellate law. The code checks provenance labels, not present-day docket status, merits, injunction coverage or actual legal obligations.

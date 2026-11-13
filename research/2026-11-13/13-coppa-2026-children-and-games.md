@@ -26,6 +26,8 @@ The FTC's [2025 COPPA Rule amendments, 90 Fed. Reg. 16918 (April 22, 2025), FR D
 
 The FTC **did not finalize** all ideas from its 2024 proposal. The 2025 final-rule explanation expressly says it deferred particular proposed new school/education-technology authorization provisions while considering possible FERPA-rule changes. It also did not finalize every proposed push-notification limitation. Do **not** list those unadopted provisions as 2026 binding text, or assume schools can authorize unlimited child-data commercialization without examining current law and guidance.
 
+**Milestone 21 court and state-law update:** COPPA's **under-13** federal operator standard is separate from state youth-platform laws and court injunctions. Read the [California AADC 2026 replacement / Texas SCOPE en banc source clinic](16-child-online-safety-and-injunctions-2026.md), particularly **California AB2246's proposed Jan. 2027 legal period** and the **October 28 Fifth Circuit vacatur of its July panel**. An appellate decision about the *old* California code does not decide the *replacement*, and a vacated panel opinion does not currently control Texas HB18 disputes.
+
 **Other laws remain separate:** COPPA is not the same as state minors' social-media laws, state biometric privacy acts, the EU GDPR child-consent rules, or US FERPA obligations for covered educational institutions. A child aged **13–17** is not automatically under COPPA's under-13 core rule; their information can still be protected by other laws.
 
 ## 4. Worked hypothetical — multiplayer game with AI voice features

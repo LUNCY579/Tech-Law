@@ -17,6 +17,7 @@ A single state can yield multiple independently triggered obligations. A registr
 | `ENACTED_FUTURE` | Enacted law with an operative duty or phase scheduled for a later date | Explain future condition, transition and status |
 | `OFFICIAL_GUIDANCE` | Published agency explanation, not independently an enacted statute | Identify agency role and limits |
 | `WITHDRAWN` / `VACATED` | Historical agency action or rule without current operative force in the stated sense | Never call it current binding text |
+| `OFFICIAL_JUDICIAL_ORDER` | Authenticated **issuing-court** decision or procedural order; separate from enacted law | Record the exact docket/date, case posture and subsequent history; **not** a claim of universal enforceability |
 | `REQUIRES_FURTHER_REVIEW` | Specific current provision or amendment not adequately authenticated | Maintain as research lead only |
 
 For the **six-state breach obligation matrix**, only a source row with `ENACTED_AND_APPLICABLE` may be referenced. This is a **minimum editorial gate**, not a guarantee that the statutory interpretation is correct.

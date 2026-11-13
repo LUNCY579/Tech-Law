@@ -20,6 +20,7 @@ This review compares the current seven-textbook main branch with the uploaded co
 12. [COPPA: child privacy and games](13-coppa-2026-children-and-games.md): the 2025 final FTC rule, main 2026 compliance date, under-13 coverage, separate disclosure consent, biometric scope and retention.
 13. [Illinois/NYC automated hiring law](14-hiring-ai-video-and-aedt-2026.md): recorded-video consent/deletion, AI employment discrimination, NYC AEDT audit and notice, employer/vendor differences.
 14. [Washington biometric identifier law](15-washington-biometric-privacy.md): narrow commercial-enrollment scope, notice/consent/prevention alternatives, security exception and Attorney-General enforcement compared with IL/TX.
+15. [Children's online-safety litigation and 2026 California replacement](16-child-online-safety-and-injunctions-2026.md): official Ninth/Fifth court dispositions, AB2246 signed replacement and the October 28 Texas en banc vacatur.
 
 [Milestone 16 source audit](../../quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) | [Claim-by-claim evidence register](source-register.csv) | [Archive reconciliation and release gates](ARCHIVE_RECONCILIATION.md)
 

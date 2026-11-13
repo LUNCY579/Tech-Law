@@ -21,7 +21,8 @@ WATCHLIST_COLUMNS = (
     "next_review_target", "open_question",
 )
 STATUSES = {
-    "INDEX_SCOPE_CHECKED", "TARGETED_PRIMARY_TEXT_CHECKED", "PENDING_REVIEW",
+    "INDEX_SCOPE_CHECKED", "TARGETED_PRIMARY_TEXT_CHECKED",
+    "JUDICIAL_ORDER_CHECKED", "PENDING_REVIEW",
 }
 PRIMARY_SOURCE_TYPES = {
     "primary_session_law", "state_statute", "federal_statute",
@@ -92,6 +93,11 @@ def audit(root: Path) -> list[str]:
                 errors.append(f"{WATCHLIST}:{index}: primary-text status requires primary-law source")
             if source.get("status") != "ENACTED_AND_APPLICABLE":
                 errors.append(f"{WATCHLIST}:{index}: primary-text claim references non-operative source")
+        elif status == "JUDICIAL_ORDER_CHECKED":
+            if source.get("source_type") != "judicial_order":
+                errors.append(f"{WATCHLIST}:{index}: judicial claim requires judicial_order source")
+            if source.get("status") != "OFFICIAL_JUDICIAL_ORDER":
+                errors.append(f"{WATCHLIST}:{index}: judicial claim requires authenticated official judicial order status")
     return errors
 
 

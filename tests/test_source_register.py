@@ -79,6 +79,15 @@ class SourceRegisterAuditTests(unittest.TestCase):
         self.assertFalse(audit.official_source_url(
             "https://www.random.state.or.us/"))
 
+    def test_official_judicial_order_status(self):
+        court = dict(
+            self.source, id="COURT-ORDER", source_type="judicial_order",
+            status="OFFICIAL_JUDICIAL_ORDER",
+            official_url="https://www.ca5.uscourts.gov/opinions/pub/25/25-50096-CV1.pdf"
+        )
+        self.write(sources=[self.source, court])
+        self.assertEqual(audit.audit(self.root), [])
+
     def test_missing_source_reference(self):
         self.write(rows=[dict(self.row, source_id="MISSING")])
         self.assertTrue(any("unknown source_id" in x for x in audit.audit(self.root)))

@@ -19,6 +19,10 @@ The [Maryland MODPA and Oregon OCPA comparison](../../research/2026-11-13/08-mar
 
 Read the [Washington RCW 19.375, Illinois BIPA and Texas §503.001 comparison](../../research/2026-11-13/15-washington-biometric-privacy.md). It explains why the same face or voice recognition service may have different legal outcomes depending on template enrollment, commercial versus security purpose, statutory exclusions, notice or release, and enforcement mechanism. This is source-based issue spotting, not legal approval.
 
+### Milestone 21: children’s online-safety litigation and new law
+
+[California's 2026 AADC replacement and the Texas SCOPE Act litigation](../../research/2026-11-13/16-child-online-safety-and-injunctions-2026.md) demonstrate why **enacted text, effective date, preliminary injunction, appellate vacatur and future legislation** must be recorded separately. The **October 28, 2026 Fifth Circuit en banc order** vacated its **July 24 panel opinion**; do not teach that panel as controlling precedent. California's **AB2246/Ch187** is a replacement of the older AADC that the **March 12, 2026 Ninth Circuit** litigated. Source history and unresolved district injunction/California bill authentication issues are recorded explicitly.
+
 ### Primary official materials
 - [EU AI Act consolidated English text, 27 July 2026](https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng) — consolidated text is a reference presentation; check binding amending acts.
 - [Official EUR-Lex AI Act summary](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=LEGISSUM%3A4762484) — guidance/summary, not a substitute for law.
