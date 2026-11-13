@@ -6,7 +6,7 @@
 
 The Maryland source chain is [**Chapter 454 (2024), MODPA enacted law**](https://mgaleg.maryland.gov/2024rs/chapters_noln/ch_454_hb0567e.pdf) plus the [Maryland Attorney General's business guidance](https://oag.maryland.gov/Resources-Info/Pages/data-privacy.aspx). The Oregon chain is [**ORS 646A.570–646A.589**](https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html), [Oregon DOJ overview](https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/) and [DOJ FAQ](https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/privacy-law-faqs-for-consumers/). Regulator FAQs are **guidance**, not an independent binding statute.
 
-**Important currentness caveat:** Oregon's online code is identified as the **2025 edition** and warns that **2026 regular-session amendments** affect Chapter 646A. Its 2026 amendments-and-repeals table returned **403** when checked, so this milestone does **not** assert that every ORS 646A section is unchanged through November 2026. Confirm relevant 2026 session laws and operative codification before production reliance.
+**Milestone 18 follow-up (November 13):** Oregon's 2025-code page does omit later sessions. The earlier 403 was resolved using the Legislature's official **2026 consolidated amendment table**, which shows **no direct amendments** to OCPA **ORS 646A.570–646A.589** in the 2026 regular session; the 2025 special-session index also has no entries for this range. The 2026 regular-session table does list changes elsewhere in Chapter 646A, and **2026 Oregon Laws chapter 96** adds a **distinct public-body/data-broker attestation rule**. The [separate research note](10-oregon-session-law-reconciliation.md) provides exact citations and exceptions. This targeted check is not an exhaustive new-law/case citator.
 
 ## 1. Coverage and thresholds
 
@@ -34,7 +34,7 @@ The [Maryland AG](https://oag.maryland.gov/Resources-Info/Pages/data-privacy.asp
 
 ## 3. Oregon: rights, purpose and 2026 changes
 
-[ORS 646A.572](https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html) governs scope and exceptions. **§646A.578** covers controller duties including stated purposes, relevant collection limits, reasonable security, revocation and restrictions on processing sensitive data; **§§646A.574–.576** address requests, opt-outs, appeal and consumer rights. These are not rules that automatically apply to all user information simply because a customer lives in Oregon.
+[ORS 646A.572](https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html) governs scope and exceptions. **§646A.578** covers controller duties including stated purposes, relevant collection limits, reasonable security, revocation and restrictions on processing sensitive data; **§§646A.574–.576** address requests, opt-outs, appeals and consumer rights. These are not rules that automatically apply to all user information simply because a customer lives in Oregon.
 
 The [Oregon DOJ](https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/) says that from **January 1, 2026**, covered businesses and nonprofits must honor valid **universal opt-out preference signals**. The [DOJ FAQ](https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/privacy-law-faqs-for-consumers/) identifies new 2026 restrictions concerning **sale of precise geolocation data** and **selling, profiling or using targeted advertising with data about consumers under 16**. For implementation, identify exact statutory amendment, age/knowledge triggers, exceptions and effective date; the DOJ descriptions are not a substitute for enrolled legal text.
 
@@ -53,4 +53,4 @@ A company processes **36,000 Maryland** consumer accounts, **90,000 Oregon** con
 - **Oregon second scenario:** 26,000 and 30% meet the alternative **25,000 and at least 25%** numeric threshold when the other coverage criteria are met.
 - **Scoring:** 20 points each for actor/consumer distinctions, thresholds, consent and child/sensitive data, governance/evidence, and source-currentness/unknowns.
 
-**Unresolved:** 2026 Oregon amendments table access failure; full Maryland 2025–2026 codification diff; exhaustive judicial history; vendor-specific applicability; 50-state scope. No complete government texts or third-party manuals reproduced.
+**Current review boundary:** the prior Oregon 2026 direct-amendments table access failure is **resolved narrowly** in [Milestone 18](10-oregon-session-law-reconciliation.md); full Maryland 2025–2026 codification diff, comprehensive new/uncodified law inventory, judicial history, product-specific applicability and 50-state scope remain open. No complete government texts or third-party manuals reproduced.
