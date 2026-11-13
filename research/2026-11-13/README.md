@@ -13,6 +13,7 @@ This review compares the current seven-textbook main branch with the uploaded co
 5. [Federal consumer, hiring and platform sources](05-federal-updates.md): ROSCA, vacated FTC amendment, withdrawn CFPB circular and TAKE IT DOWN Act.
 6. [Use-case workbook](06-startup-applicability.md): hiring/credentials, model development, SaaS, and game/content features.
 7. [Breach timing casebook](07-breach-timeline-casebook.md): six-state deadline-trigger and threshold exercises; [normalized matrix](breach-obligations.csv).
+8. [Maryland / Oregon privacy](08-maryland-oregon-privacy.md): two state statutes, statutory thresholds and 2026 agency updates; [implementation exercises](09-state-privacy-implementation-exercises.md).
 
 [Milestone 16 source audit](../../quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) | [Claim-by-claim evidence register](source-register.csv) | [Archive reconciliation and release gates](ARCHIVE_RECONCILIATION.md)
 
