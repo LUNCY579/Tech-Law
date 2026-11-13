@@ -22,6 +22,12 @@ Ask **which data** (personal, health, financial, credentials), **whose data** (s
 ## Step 4: decision log
 Record event ID, detection and discovery timestamps, attorney contact, affected subjects, jurisdictions, impacted secrets/keys, exfiltration evidence, legal theory, notification deadline **if actually applicable**, notices sent, ongoing updates and remediation evidence.
 
+## Six-state breach research supplement (Milestone 16)
+
+The [primary-source comparison of California, Texas, Illinois, Massachusetts, Washington and Florida](../../research/2026-11-13/03-breach-notifications.md) and its [normalized recipient-specific matrix](../../research/2026-11-13/breach-obligations.csv) distinguish **the date of discovery from a later legal determination**, residents from regulators, and `more than 500` from `500 or more`. The [casebook](../../research/2026-11-13/07-breach-timeline-casebook.md) includes exercises at 250, 500 and 501 affected residents.
+
+These notes are **not** a general state-law notice deadline calculator. The analysis still requires the operative statute for the actual incident date, covered data/actors, exceptions and counsel review.
+
 ## Hypothetical
 An AI recruiting platform leaks 300 California candidate CVs to another tenant; a worker notices the problem on Tuesday. No universal notice time can be inferred from “300” or “Tuesday.” Classify data and incident under applicable California law, relevant contracts, FTC claims and other statutes. Do not automatically apply a financial-institution 500-person threshold or a public issuer's Form 8-K deadline.
 

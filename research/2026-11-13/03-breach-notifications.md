@@ -1,36 +1,60 @@
-# Security incident law: determine the trigger before calculating a deadline
+# Breach-notification law: six-state primary-source comparison (Milestone 16)
 
-**As of:** 2026-11-13. This is a selective follow-up to the uploaded Milestone 15 breach module. No universal U.S. notice clock exists.
+**Reviewed:** 2026-11-13. **Scope:** selected U.S. state laws applicable to private entities, not a 50-state analysis, incident-specific advice, or an automated legal deadline calculator. **Status:** the specific subsections cited below were checked against official state-published sources. Applicability, historical incident-date version, sector laws, later amendments and case treatment remain fact-specific.
 
-## Decision tree
+## 1. First classify the event; then separate recipients and clocks
 
-Investigate: (1) which entity owns/licenses versus processes the data; (2) affected residents and countries; (3) legally defined personal information; (4) acquisition/access, encryption and compromise; (5) harm and statutory exceptions; (6) trigger timestamp; (7) residents versus regulators versus consumer-reporting agencies; (8) sectoral overlays, law-enforcement delay and permissible extensions.
+Collect the controller/owner versus processor/maintainer role, affected resident states, statutory category of *personal information*, actual or reasonably believed acquisition/access, encryption **and keys**, number of affected people per state, date of discovery and/or legal determination, and permitted investigation or law-enforcement delays. State agencies, financial institutions and health-sector entities may have distinct requirements.
 
-**Do not count from an arbitrary incident-monitoring alert if the statute triggers on a later legal determination; also do not wait for an internal meeting when the statute triggers on discovery.**
+An incident date is not necessarily the date of discovery; discovering unusual traffic is not necessarily the legally defined determination that a breach occurred. Preserve both as evidence and **do not run one universal countdown**.
 
-## Verified examples from official law
+## 2. Pinpointed comparison
 
-| State | Individual notice | Government / regulator notice | Source |
+| State | Consumer/resident notice | State regulator notice | Source and limitation |
 |---|---|---|---|
-| Washington | RCW 19.255.010(8): expeditiously without unreasonable delay; not more than 30 calendar days after discovery, subject to specified delays | Under (7), **more than 500** Washington residents: Attorney General no more than 30 days after discovery | [RCW 19.255.010](https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010) |
-| Florida | Fla. Stat. §501.171(4): generally within 30 days of determination or reason to believe a covered breach occurred, subject to extensions/waiver and other conditions | §501.171(3): covered breach involving **500 or more** Florida individuals, Department of Legal Affairs within 30 days | [2026 statute](https://www.flsenate.gov/Laws/Statutes/2026/501.171) |
+| **California** | Civil Code **§1798.82(a)(2)(A)**: generally within **30 calendar days of discovery or notification of the breach** for a covered person/business and covered data, subject to **(a)(2)(B), (c)** investigation/law-enforcement delays | **§1798.82(f)**: if notice is required to **more than 500** California residents for one incident, submit a **single redacted sample** to the Attorney General **within 15 calendar days after consumer notice** | [CA Department of Real Estate, official 2026 statutory excerpts (Civil Code pp. 107–109)](https://dre.ca.gov/files/pdf/relaw/excerpts.pdf); [CA DOJ reporting form](https://oag.ca.gov/privacy/databreach/report-a-breach). Enacted amendment: 2025 **SB 446**, effective January 1, 2026 |
+| **Texas** | Business & Commerce Code **§521.053(b)**: without unreasonable delay and generally **no later than 60 days after determining the breach occurred**; statutory scope, delay and exceptions apply | **§521.053(i)**: at least **250 Texas residents**, notice to AG as soon as practicable and **no later than 30 days after determination** | [Texas Legislature, Chapter 521](https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm). The AG deadline is not the consumer deadline |
+| **Illinois** | Personal Information Protection Act, **815 ILCS 530/10(a)**: most expedient time possible and without unreasonable delay after discovery/notification; **no universal numeric consumer deadline** in this subsection | **§10(e)(2)**: if required to notify **more than 500** Illinois residents, tell AG without unreasonable delay and **no later than the consumer notice**; subsection (e)(1) has a specified health-sector exclusion | [Illinois General Assembly, §530/10](https://www.ilga.gov/documents/legislation/ilcs/documents/081505300K10.htm). A **data maintainer** not owning/licensing information notifies the owner/licensee **immediately** when (b) applies |
+| **Massachusetts** | General Laws **ch. 93H, §3(b)**: when specified knowledge/reason-to-know conditions are met, the **owner/licensee** notifies resident **as soon as practicable and without unreasonable delay** | **§3(b)**: also notify **Attorney General and Director of Consumer Affairs and Business Regulation** under same general timing; no general numeric days in this section | [Massachusetts Legislature, Chapter 93H §3](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section3). **§3(a)** requires a *maintainer* to notify owner/licensee; incident-specific supplemental obligations apply |
+| **Washington** | **RCW 19.255.010(8)**: most expedient time possible, without unreasonable delay, generally **within 30 calendar days of discovery**, with specified delays | **RCW 19.255.010(7)**: notice to AG for **more than 500** Washington residents, **within 30 days of discovery** | [Washington Legislature, RCW 19.255.010](https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010). Includes a risk-of-harm exception and separate owner notification |
+| **Florida** | Florida Statutes **§501.171(4)(a)**: as expeditiously as practicable, without unreasonable delay, generally **within 30 days after determination/reason to believe**, subject to specified delays/waiver | **§501.171(3)(a)**: **500 or more** Florida individuals, notify Department of Legal Affairs **within 30 days after determination/reason to believe** | [Florida Senate, 2026 §501.171](https://www.flsenate.gov/Laws/Statutes/2026/501.171). Third-party agent has a separate **§501.171(6)** duty |
 
-Washington also provides a distinct immediate notification obligation for data maintainers to the owner/licensee under RCW 19.255.010(2). Florida has a separate rule for third-party agents in §501.171(6); this note is not a complete substitute for reading it.
+**Threshold traps:** "more than 500" means 501 or above; "500 or more" includes exactly 500. Texas AG threshold is at least 250, not 500. These thresholds are **not safe harbors for individual notices**. Resident counts must be evaluated for each applicable statute, not summed blindly across states.
 
-## Additional jurisdiction research, NOT signed off here
+## 3. California: resolve the prior source blocker precisely
 
-- **California:** The uploaded Milestone 15 handoff proposes a 30-day resident deadline and a post-resident-notice Attorney General sample period under California Civil Code §1798.82. Its own source audit recorded an official-legislative-text access failure. Do **not** calculate a legal deadline from the archive alone. Recheck the [California Legislature](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.82.&lawCode=CIV) and [California DOJ reporting page](https://oag.ca.gov/privacy/databreach/reporting).
-- **Texas:** The handoff distinguishes individual and AG clocks under [Business and Commerce Code §521.053](https://statutes.capitol.texas.gov/?artSec=521.053&chapter=BC.521&code=BC&tab=1). Current codified subsections and any amendment after the handoff still require targeted confirmation before actual deadlines are asserted here.
-- **Illinois and Massachusetts:** Locate operative 815 ILCS 530/10 and Mass. Gen. Laws ch. 93H and their exceptions. Do not generalize one state's notice limit to both.
+The previous milestone's archive left §1798.82 currentness **unverified** because California's legislative code website returned an access error. For this milestone, the official **California Department of Real Estate's 2026 code excerpts** were read at printed pp. 107–109 and cross-checked against the California DOJ submission page. The excerpt reflects **SB 446, 2025 Stats. ch. 319**, effective **January 1, 2026**, including the 30-day consumer rule and 15-day post-notice sample requirement.
 
-## Applied exercise
+**Provenance caveat:** This is a state-published *reproduction of statutory text*, not direct access to the California Legislature's dynamic codification page (which remained access-blocked). It resolves the specific previously unverified **statutory text and deadlines** at the stated date, but **not** a complete subsequent-amendments or judicial-history check. Do not treat the DRE publication as an independent statute. [Official CA DOJ reporting guidance](https://oag.ca.gov/privacy/databreach/reporting) confirms the >500 sample submission obligation.
 
-A hypothetical incident affects 600 Washington residents and 490 Florida residents. Incident response discovered suspicious database access November 1 and formed a reasonable belief of unauthorized personal-data access November 5. The precise trigger and affected information are not yet fully established.
+**Processor distinction:** §1798.82(b) requires a data *maintainer* not owning the information to notify the owner/licensee **immediately after discovery** when the covered criteria are met. It is a separate role and notice from the resident's §(a) clock.
 
-**Model analysis:** Establish discovery and statutory definitions separately. Washington's conditional 30-day regime and AG threshold require assessment of whether personal information was acquired or reasonably believed acquired and risk-of-harm exceptions. Florida's individual clock depends on a statutory determination/reason-to-believe trigger; 490 affected Florida people do not automatically meet its 500-person department threshold. Law enforcement, extensions, processors and sectoral rules may change the result.
+## 4. Texas: two different triggers and recipients
 
-## Product artifacts
+Under **§521.053(b)**, the business's resident disclosure clock refers to the date it **determines** that the breach occurred, and is generally capped at 60 days. **§521.053(i)** is a separate AG obligation at ≥250 Texas residents, no later than 30 days after determination. An entity that merely *maintains* covered data not owned by it has an **immediate owner/licensee notice** under §(c). §(h) adds consumer-reporting-agency notification when notifying **more than 10,000 persons at one time**. Review the statute's alternative state-law, investigative and notification-method provisions.
 
-Maintain a UTC incident timeline, affected-resident matrix, data categories, encryption/key evidence, counsel decision log, owner/processor contacts, jurisdiction-specific obligations, notice content versions, draft approvals, post-notice supplements and preservation requirements. This is an engineering evidence framework, **not** a statement that any particular incident is reportable.
+## 5. Illinois and Massachusetts: qualitative timing does not mean optional notice
 
-**Status:** Washington/Florida provisions directly checked; California/Texas/Illinois/Massachusetts retained as source-specific research tasks, not certified clocks.
+Illinois §10(a) requires prompt consumer notification; §10(e)(2) makes the AG deadline **no later than** consumer notice when the >500 threshold and conditions are met. The Illinois AG notice includes incident nature, affected resident count and remediation steps, but the resident notice **must not include** the affected Illinois resident count. Under Massachusetts §3(b), AG, Director and residents have parallel duties without a generic fixed day limit; its resident notice has its own prohibited contents, notably the nature of the breach and total affected count, unlike government reporting.
+
+**Do not** use one generic template for Illinois and Massachusetts consumer letters.
+
+## 6. Case exercise (hypothetical)
+
+A SaaS vendor discovers exposed records on November 1, determines on November 5 that qualifying unencrypted records were acquired, and identifies **501 California, 250 Texas, 501 Illinois, 20 Massachusetts, 501 Washington and 499 Florida residents**.
+
+Before computing any dates, record evidence for each state's **trigger**. Conditional notifications may include:
+- California **§1798.82(a)** resident notice, and **§(f)** post-resident-notice sample AG filing; the 15-day AG clock is **not** measured from breach discovery.
+- Texas resident vs AG **different clocks**; 250 meets Texas's **at least** threshold.
+- Illinois AG at **more than 500**, at or before consumer notice.
+- Massachusetts AG, Director, and resident without a flat 30-day deadline.
+- Washington AG at **more than 500** and consumer notice from discovery, subject to statute's exceptions.
+- Florida resident notice may apply even when 499 **does not** meet its 500-person Department threshold.
+
+**Model answer:** An actual notice decision still depends on each state's definition, covered party and data, risk and exemptions, evidence of acquisition/access, lawful delay, sectoral laws, contractual notice duties, and exact historical incident date. The numbers only establish potential threshold differences.
+
+## Evidence receipt / incomplete scope
+
+Checked official source publishers and section numbers on **2026-11-13**: CA DRE official state excerpt with CA DOJ cross-check; TX Texas Legislature; IL General Assembly available codified search extract; MA General Court; WA Revised Code; FL 2026 Florida Senate. **Not** a formal legislative citator, state-by-state survey, claim of every external URL being reachable in CI, or a live incident-response opinion.
+
+See the [normalized obligation register](breach-obligations.csv) and [startup incident textbook](../../textbooks/05-cybersecurity-computer-misuse/03-breach-response.md).

@@ -7,7 +7,7 @@ NYC-AEDT,New York City,city_law_and_agency_guidance,ENACTED_AND_APPLICABLE,2023-
 CA-CPPA,California,state_regulation,ENACTED_AND_APPLICABLE,2026-01-01,https://cppa.ca.gov/regulations/ccpa_updates,Phased feature obligations
 WA-BREACH,Washington,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010,Discovery plus statutory exceptions
 FL-BREACH,Florida,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://www.flsenate.gov/Laws/Statutes/2026/501.171,Separate resident and regulator notices
-CA-BREACH,California,state_statute,REQUIRES_FURTHER_REVIEW,2026-11-13,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.82.&lawCode=CIV,Archive reported official source blocker
+CA-BREACH,California,state_statute,ENACTED_AND_APPLICABLE,2026-01-01,https://dre.ca.gov/files/pdf/relaw/excerpts.pdf,California_DRE_official_2026_excerpts_and_DOJ_cross_check_legislature_viewer_403
 IL-BIPA,Illinois,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://ilga.gov/legislation/ilcs/fulltext?DocName=074000140K10,Check definition and exceptions
 IL-BIPA-PA,Illinois,enacted_amendment,ENACTED_AND_APPLICABLE,2024-08-02,https://www.ilga.gov/Legislation/publicacts/view/103-0769,Repeated-collection damages changed
 TX-CUBI,Texas,state_statute,ENACTED_AND_APPLICABLE,2026-01-01,https://statutes.capitol.texas.gov/?artSec=503.001&chapter=BC.503&code=BC&tab=1,2026 AI exclusions are conditional
@@ -16,3 +16,6 @@ ROSCA,Federal,federal_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://uscode.h
 CFPB-2024-06,Federal,agency_guidance,WITHDRAWN,2025-05-12,https://www.consumerfinance.gov/compliance/guidance/withdrawn-guidance/,FCRA remains in effect
 TAKE-IT-DOWN,Federal,federal_statute,ENACTED_AND_APPLICABLE,2026-05-19,https://www.govinfo.gov/app/details/PLAW-119publ12,Covered platform and notice conditions
 EEOC-TESTS,Federal,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures,Guidance not law
+TX-BREACH,Texas,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm,Section_521.053_resident_and_AG_clocks_differ
+IL-BREACH,Illinois,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://www.ilga.gov/documents/legislation/ilcs/documents/081505300K10.htm,Official_codified_search_extract_direct_page_intermit_timeout
+MA-BREACH,Massachusetts,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section3,Resident_and_AG_Director_notice_no_generic_numeric_clock
