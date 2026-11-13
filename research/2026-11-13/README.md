@@ -15,6 +15,7 @@ This review compares the current seven-textbook main branch with the uploaded co
 7. [Breach timing casebook](07-breach-timeline-casebook.md): six-state deadline-trigger and threshold exercises; [normalized matrix](breach-obligations.csv).
 8. [Maryland / Oregon privacy](08-maryland-oregon-privacy.md): two state statutes, statutory thresholds and 2026 agency updates; [implementation exercises](09-state-privacy-implementation-exercises.md).
 9. [Oregon 2026 enacted-law reconciliation](10-oregon-session-law-reconciliation.md): official 2025/2026 amendment tables, 2025 HB 2008's 2026 operative rules and 2026 chapter 96 data-broker attestation.
+10. [Maryland 2026 MODPA amendments](11-maryland-modpa-2026-amendments.md): current §14-47xx code, HB711 Ch874 and applied exercises.
 
 [Milestone 16 source audit](../../quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md) | [Claim-by-claim evidence register](source-register.csv) | [Archive reconciliation and release gates](ARCHIVE_RECONCILIATION.md)
 
