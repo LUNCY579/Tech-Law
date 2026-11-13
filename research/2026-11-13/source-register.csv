@@ -19,3 +19,7 @@ EEOC-TESTS,Federal,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://www.ee
 TX-BREACH,Texas,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm,Section_521.053_resident_and_AG_clocks_differ
 IL-BREACH,Illinois,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://www.ilga.gov/documents/legislation/ilcs/documents/081505300K10.htm,Official_codified_search_extract_direct_page_intermit_timeout
 MA-BREACH,Massachusetts,state_statute,ENACTED_AND_APPLICABLE,2026-11-13,https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section3,Resident_and_AG_Director_notice_no_generic_numeric_clock
+MD-MODPA,Maryland,state_statute,ENACTED_AND_APPLICABLE,2025-10-01,https://mgaleg.maryland.gov/2024rs/chapters_noln/ch_454_hb0567e.pdf,Ch454_section2_prospective_only_14_4612_after_2026_04_01_check_later_amendments
+MD-OAG-MODPA,Maryland,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://oag.maryland.gov/Resources-Info/Pages/data-privacy.aspx,Agency_explanation_not_statute
+OR-OCPA,Oregon,state_statute,ENACTED_AND_APPLICABLE,2024-07-01,https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html,2025_code_displays_2026_amendment_warning_2026_Amendments_Repeals_table_403
+OR-DOJ-PRIVACY,Oregon,official_guidance,OFFICIAL_GUIDANCE,2026-11-13,https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/,DOJ_2026_signals_and_child_location_summary_not_enrolled_amendment

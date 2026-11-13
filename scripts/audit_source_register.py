@@ -37,6 +37,10 @@ STATUS_VALUES = {
     "REQUIRES_FURTHER_REVIEW",
 }
 
+# Oregon's DOJ retains a legacy .or.us official government hostname. This
+# entry is vetted manually; do NOT accept all .or.us as governmental.
+ADDITIONAL_OFFICIAL_HOSTS = {"www.doj.state.or.us"}
+
 
 def valid_date(value: str) -> bool:
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
@@ -58,7 +62,8 @@ def official_source_url(value: str) -> bool:
             and not parsed.username
             and not parsed.password
             and bool(host)
-            and (host.endswith(".gov") or host.endswith(".europa.eu"))
+            and (host.endswith(".gov") or host.endswith(".europa.eu")
+                 or host in ADDITIONAL_OFFICIAL_HOSTS)
         )
     except ValueError:
         return False

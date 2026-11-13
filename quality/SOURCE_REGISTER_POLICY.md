@@ -33,6 +33,8 @@ python3 scripts/audit_curriculum.py
 
 It verifies CSV headers, no blank required metadata, unique IDs, syntactically valid ISO dates, HTTPS governmental publisher hostnames, consistent state labels, source ID existence, matching source URLs and absence of *pending/withdrawn* sources behind published obligation rows.
 
+**Legacy official hostname exception (Milestone 17):** Oregon's Department of Justice officially publishes consumer privacy guidance at the HTTPS host **www.doj.state.or.us**. The URL validator now allows that **exact vetted host** alongside government and EU domains; it deliberately rejects an arbitrary *.or.us domain or a lookalike suffix. Hostname checks remain metadata hygiene, not a legal-authenticity or live-site security guarantee.
+
 **What it cannot catch:** silently amended law, a government HTML endpoint displaying a superseded version, unsupported pinpoint interpretation, omitted exceptions, unreviewed court subsequent history, broken HTTP responses, or a real-world factual trigger.
 
 ## Verification workflow for future contributors

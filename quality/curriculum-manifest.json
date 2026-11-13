@@ -12,7 +12,9 @@
     "Washington",
     "Florida",
     "Texas",
-    "Massachusetts"
+    "Massachusetts",
+    "Maryland",
+    "Oregon"
   ],
   "textbooks": [
     {
@@ -65,7 +67,8 @@
     "quality/RESEARCH_RECONCILIATION_2026-11-13.md",
     "quality/MILESTONE16_BREACH_SOURCE_AUDIT_2026-11-13.md",
     "quality/SOURCE_REGISTER_POLICY.md",
-    "casebook/2026-11-13-historic-opinion-source-clinic.md"
+    "casebook/2026-11-13-historic-opinion-source-clinic.md",
+    "quality/MILESTONE17_STATE_PRIVACY_AUDIT_2026-11-13.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -91,7 +94,8 @@
     "Linked source redistribution licenses are not presumed",
     "No specific EAR ECCN or OFAC authorization determination",
     "EU transfer, platform, VAT and AI rules require fact-specific jurisdiction review",
-    "Original 1985/2002 issuing-court opinion copies not authenticated, despite limited later court citations"
+    "Original 1985/2002 issuing-court opinion copies not authenticated, despite limited later court citations",
+    "Oregon 2026 Chapter 646A amendments table unverified due to 403; Maryland post-2024 amendment check incomplete"
   ],
   "audit_script": "scripts/audit_curriculum.py",
   "audit_level": "Offline structural and source-register metadata checks plus limited official-source review; NOT exhaustive legal currency, licensed-text reuse or a legal deadline calculation",

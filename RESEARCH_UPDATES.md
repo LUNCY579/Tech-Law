@@ -13,3 +13,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 17A (historical cases):** The [case provenance and later-history clinic](casebook/2026-11-13-historic-opinion-source-clinic.md) analyzes *Specht* and *Smith v. Van Gorkom* against available reproduced texts and **official later court opinions**. Neither original issuing-court copy was authenticated, so both remain flagged pending; the 2017/2024 Delaware court discussion narrows *Gantler*'s change to ratification terminology rather than discarding the entire historic case.
+
+
+**Milestone 17B (Maryland and Oregon privacy):** [New state privacy research](research/2026-11-13/08-maryland-oregon-privacy.md) and [applied exercises](research/2026-11-13/09-state-privacy-implementation-exercises.md) add exact count/revenue thresholds, separate government vs private Maryland statutes and significant 2026 Oregon consumer privacy guidance. The [source audit](quality/MILESTONE17_STATE_PRIVACY_AUDIT_2026-11-13.md) retains a documented **403 access blocker for Oregon's 2026 amendments table**, so the findings are not full amendment-verified current-law advice.

@@ -11,6 +11,10 @@ This text teaches **classification first**: what system, whose data, which juris
 4. [U.S. FTC, hiring AI and evidence](04-us-consumer-employment.md)
 5. [Product compliance architecture and examination](05-implementation-assessment.md)
 
+### Milestone 17 cross-state consumer privacy expansion
+
+The [Maryland MODPA and Oregon OCPA comparison](../../research/2026-11-13/08-maryland-oregon-privacy.md) explains differences in covered consumer counts, data-sale revenue thresholds, private employment-information exceptions, Maryland's distinct April 2026 prospectivity clause, and Oregon's 2026 privacy guidance. Complete the [implementation casebook](../../research/2026-11-13/09-state-privacy-implementation-exercises.md). These are **two targeted states**, not a national privacy survey; the 2026 Oregon amendment table is an open source gate.
+
 ### Primary official materials
 - [EU AI Act consolidated English text, 27 July 2026](https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng) — consolidated text is a reference presentation; check binding amending acts.
 - [Official EUR-Lex AI Act summary](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=LEGISSUM%3A4762484) — guidance/summary, not a substitute for law.
