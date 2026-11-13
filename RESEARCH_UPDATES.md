@@ -10,3 +10,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 16B data-quality gate:** [Source register policy](quality/SOURCE_REGISTER_POLICY.md) and an [offline metadata checker](scripts/audit_source_register.py) now validate authority status, official HTTPS URL hosts, IDs, dates and cross-references; they do not claim to test external legal truth or predict incident deadlines.
+
+
+**Milestone 17A (historical cases):** The [case provenance and later-history clinic](casebook/2026-11-13-historic-opinion-source-clinic.md) analyzes *Specht* and *Smith v. Van Gorkom* against available reproduced texts and **official later court opinions**. Neither original issuing-court copy was authenticated, so both remain flagged pending; the 2017/2024 Delaware court discussion narrows *Gantler*'s change to ratification terminology rather than discarding the entire historic case.
