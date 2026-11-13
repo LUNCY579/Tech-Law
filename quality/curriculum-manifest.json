@@ -73,7 +73,8 @@
     "quality/LEGAL_CHANGE_REVIEW_POLICY.md",
     "quality/MILESTONE19_MARYLAND_2026_AUDIT.md",
     "quality/MILESTONE19_OREGON_ALPR_SOURCE_AUDIT.md",
-    "quality/MILESTONE20_COPPA_SOURCE_AUDIT_2026-11-13.md"
+    "quality/MILESTONE20_COPPA_SOURCE_AUDIT_2026-11-13.md",
+    "quality/MILESTONE20_HIRING_SOURCE_AUDIT_2026-11-13.md"
   ],
   "authority_status": {
     "verified_official": [
@@ -102,7 +103,8 @@
     "Original 1985/2002 issuing-court opinion copies not authenticated, despite limited later court citations",
     "Oregon 2026 direct-amendment table rechecked; remaining new/uncodified-law completeness unverified; Maryland Ch874 and current code checked; all-other-amendments/case-history sweep incomplete",
     "Oregon 2026 ALPR Ch77 researched; other newly enacted and uncodified privacy-related statutes are not exhaustively covered",
-    "Children's privacy: COPPA final-rule sections sampled; no individual service classification or all-state child privacy certification"
+    "Children's privacy: COPPA final-rule sections sampled; no individual service classification or all-state child privacy certification",
+    "AI hiring: verified selected Illinois statutes and NYC guidance, not independent bias-audit certification, job-related validity or counsel review"
   ],
   "audit_script": "scripts/audit_curriculum.py",
   "audit_level": "Offline internal links, source-register and claim-review metadata tests; targeted official source review, NOT legal currentness certification",

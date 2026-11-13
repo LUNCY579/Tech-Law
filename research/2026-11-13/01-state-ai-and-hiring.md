@@ -34,3 +34,7 @@ The [California Privacy Protection Agency's final ADMT/risk/audit regulations](h
 | Not established by this study | Whether a specific API is covered | Adequacy of a given notice/test | Independent audit for a specific tool | CCPA threshold or exemption for a given business |
 
 **Source limits:** Official landing pages and regulator explanations were accessed for this targeted comparison, but no complete legislative citator or every-subsection audit was performed. For live deployment, retrieve operative codified text and implementing rules.
+
+## Milestone 20: operational hiring evidence and city/state differences
+
+The [applied Illinois/NYC casebook](14-hiring-ai-video-and-aedt-2026.md) now pinpoints **820 ILCS 42/5, /10, /15, /20** (recorded AI interview notice, consent, sharing, on-request 30-day deletion and **solely-AI-triggered** annual demographic reporting), **775 ILCS 5/2-102(L)** (Illinois 2026 employment AI discrimination/notice), and [NYC DCWP's Local Law 144 materials](https://www.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page) (covered AEDT independence, audits within one year, publication and 10-business-day prior notice). Keep 2027 Illinois amendments separate from 2026 law. The source audit is [here](../../quality/MILESTONE20_HIRING_SOURCE_AUDIT_2026-11-13.md). A proprietary assessment score or cryptographic credential does not establish job-related validity, a city-law audit or independent accreditation.
