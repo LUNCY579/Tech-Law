@@ -31,3 +31,6 @@ The seven-textbook [Tech-Law curriculum](README.md) is supplemented by [a source
 
 
 **Milestone 20A — children's data:** [COPPA final-rule and 2026 compliance study](research/2026-11-13/13-coppa-2026-children-and-games.md) covers FTC's enacted 2025 amendments, separate parental consent for certain disclosures, new biometric identifiers, retention and security evidence. A [targeted source audit](quality/MILESTONE20_COPPA_SOURCE_AUDIT_2026-11-13.md) distinguishes effective and compliance dates and unfinalized rule proposals. Applicable operator facts and legal exceptions remain open.
+
+
+**Milestone 20B — employment AI:** [Illinois video-interview and New York City AEDT law](research/2026-11-13/14-hiring-ai-video-and-aedt-2026.md) now distinguishes video-recording notice/consent and on-request deletion, §42/20 demographic reporting only for solely-AI progression decisions, separate Illinois 2026 AI employment discrimination/notice, and NYC independent bias audits and advance notices. The [official-source audit](quality/MILESTONE20_HIRING_SOURCE_AUDIT_2026-11-13.md) preserves the future Jan. 2027 Illinois statutory-version boundary and vendor/employer role caveats.
